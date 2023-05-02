@@ -8,7 +8,7 @@ this game is a work v much in progress!! feedback is welcomed.
 
 ## get in touch
 
-mastodon @puns_and_ships@dice.camp / discord Puns_and_ships#8105
+mastodon [@puns_and_ships@dice.camp](https://dice.camp/@puns_and_ships) / discord Puns_and_ships#8105
 
 ## terminal_IV game design principles:
 
@@ -36,3 +36,5 @@ Other major inspirations:
 - Dream Askew by Avery Alder
 - Hard Wired Island by Weird Age Games
 - and an as yet unreleased work, S&B by Stras Acimovic 
+
+With eternal thanks to the #hack-talk gang in the BITD discord xoxo 
