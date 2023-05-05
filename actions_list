@@ -1,17 +1,17 @@
 actions:
 ├── insight
-│   ├── analyse    connect the dots, conduct research, digest info, crawl the Net
+│   ├── analyse    connect the dots, devise schemes, digest info, crawl the Net
 │   ├── connect    get someone/let them get you, win them over, be people people 
 │   └── read       read a sitch/person/map, get a gut feel, spot danger in time  
 ├── prowess
-│   ├── bruteforce throw fists, bring the big guns, launch over/through obstacles
-│   ├── execute    act precise, run/jump/stick the landing, fight fast/accurate
-│   └── ghost      evade detection, strike from cover, klep from under their nose
+│   ├── bruteforce throw fists, launch (over/through) stuff, bring the big guns 
+│   ├── execute    act fast, run/jump/make the landing, employ fluid precision
+│   └── ghost      evade detection, exploit surprise, klep from under their nose
 ├── technique
 │   ├── engineer   make/manipulate hardware, rig explosives, doctor flesh/chrome 
-│   ├── interface  perceive the Net, mess with cybersystems, become one with data
+│   ├── interface  perceive the Net, deepdive cybersystems, become one with data
 │   └── operate    lead a car chase, control a turret gun/recon drone/cybertrain
 └── resolve
-    ├── burn       act fiery, distract with chaos, spray bullets/shrapnel/paint
-    ├── focus      keep cool, breathe deep, sight the target and pull the trigger
-    └── influence  impose your will, deceive/threaten/argue/charm to get your way
+    ├── burn       get fiery, distract with chaos, spray bullets/shrapnel/paint
+    ├── focus      keep cool, breathe deep, sight the target, pull the trigger
+    └── influence  impose your will, trick/threaten/reason/charm to get your way
