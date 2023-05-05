@@ -1,0 +1,100 @@
+┌──────────────────~/terminal_IV/resources/character_file.txt──────────────────┐
+│                                                                              │
+│   This character file is distributed in the hope that it will be useful,     │
+│   but WITHOUT ANY WARRANTY; without even the implied warranty of             │
+│   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. It is yours to hack   │
+│   as you choose.                                                             │
+│                                                                              │
+│   you may find your computer's INSERT function helpful for editing the text  │
+│   fields in this file without messing up the formatting.                     │
+│                                                                              │
+│   terminal_IV is still in development. track issues and contribute playtest  │
+│   feedback @ github.com/aczaplewski/terminal_IV                              │
+│                                                                              │
+│   get in touch: @puns_and_ships@dice.camp, puns_and_ships#8105               │
+│                                                                              │
+├─bio─────────────────────────────────────────────────┬─actions────┬───┬───┬───┤   
+│                                                     │            │Sk.│Sp.│Ma.│ 
+│                                                     ├────────────┴───┴───┴───┤ 
+│   name:                                             │ insight        xp[n/8] │
+│                                                     ├────────────┬───┬───┬───┤
+│   alias:                                            │ analyse    │ y │   │   │
+│                                                     │            ├───┼───┼───┤
+│   crew:                                             │ connect    │   │   │   │
+│                                                     │            ├───┼───┼───┤
+│   playbook:                                         │ read       │ y │   │   │
+│                                                     ├────────────┴───┴───┴───┤
+│   background:                                       │ prowess        xp[n/8] │
+│                                                     ├────────────┬───┬───┬───┤
+│   look:                                             │ bruteforce │   │   │   │
+│                                                     │            ├───┼───┼───┤
+│   personal address:                                 │ execute    │   │   │   │
+│                                                     │            ├───┼───┼───┤
+│                                                     │ ghost      │ y │   │   │  
+│                                                     ├────────────┴───┴───┴───┤
+│   credits: wallet [n/4]; stash [n/40]               │ technique      xp[n/8] │ 
+│                                                     ├────────────┬───┬───┬───┤
+│   lifestyle [stash/10, round down]:                 │ engineer   │ y │   │   │   
+│                                                     │            ├───┼───┼───┤    
+│                                                     │ interface  │ y │ y │   │
+│                                                     │            ├───┼───┼───┤   
+│   playbook xp  [n/10]                               │ operate    │   │   │   │   
+│                                                     ├────────────┴───┴───┴───┤ 
+│   xp triggers:                                      │ resolve        xp[n/8] │
+│   ├── desperate action xp                           ├────────────┬───┬───┬───┤
+│   └── 1-2 xp each @ session end                     │ burn       │   │   │   │
+│       ├── address a challenge w x or y              │            ├───┼───┼───┤
+│       ├── express beliefs/drive/background          │ focus      │   │   │   │
+│       └── struggle with vice/trauma                 │            ├───┼───┼───┤
+│                                                     │ influence  │   │   │   │
+├─────────────────────────────────────────────────────┴────────────┴───┴───┴───┤
+├─harm─────────────────────────────────────────┬──────┬─armour─────┬─healing───┤
+│   │                                          │ need │  uses      │       ┌───┤    
+│ 3 │                                          │ help │        ┌───┤   4   │   │
+├───┼─────────────────────┬────────────────────┼──────┤ armour │   │       ├───┤
+│   │                     │                    │      │        ├───┤   3   │   │
+│ 2 │                     │                    │ -1d  │ heavy  │   │       ├───┤
+├───┼─────────────────────┼────────────────────┼──────┤        ├───┤   2   │   │
+│   │                     │                    │ less │ spec.  │   │       ├───┤
+│ 1 │                     │                    │effect│        └───┤   1   │   │
+├───┴─────────────────────┴────────────────────┴──────┴────────────┴───────┴───┤
+├─harm─────────────────────────────────────────┬──────┬─healing───────┬─armour─┤
+│   │                                          │ need │  _.───┬───._  │  uses  │
+│ 3 │                                          │ help │ ╱     │     ╲ │  ┌───┐ │   
+├───┼─────────────────────┬────────────────────┼──────┤│      │      ││ 1│   │ │  
+│   │                     │                    │      │├──────┼──────┤│  ├───┤ │
+│ 2 │                     │                    │ -1d  ││      │      ││ 2│   │ │ 
+├───┼─────────────────────┼────────────────────┼──────┤ ╲     │     ╱ │  ├───┤ │
+│   │                     │                    │ less │  '-───┴───-'  │ s│   │ │  
+│ 1 │                     │                    │effect│ project clock │  └───┘ │
+├───┴─────────────────────┴────────────────────┴──────┴───────────────┴────────┤
+├─stress───────────────────────────────────────────────────────┬─trauma────────┤
+│   0     1     2     3     4     5     6     7     8     9    ├───┬───┬───┬───┤  
+│   │=====│=====│=====│>    │     │     │     │     │     │ -> │   │   │   │   │  
+├──────────────────────────────────────────────────────────────┴───┴───┴───┴───┤ 
+│  cold—haunted—obsessed—paranoid-reckless—soft—unstable—vicious-update_these  │
+├──────────────────────────────────────────────────────────────────────────────┤
+├─vice────────────────────┬─purveyor───────────────────────────────────────────┤
+│                         │                                                    │
+├─────────────────────────┴────────────────────────────────────────────────────┤
+│     faith—gambling—luxury—obligation—pleasure—stupor—weird-update_these      │
+├──────────────────────────────────────────────────────────────────────────────┤
+├─chrome───────────────────────────────────────────────────────┬─trauma────────┤
+
+
+
+
+      move healing clock to right side of armour box
+
+
+│                      _.───┬───._ 
+│                     ╱     │     ╲         
+│                    │      │      │ 
+│                    ├──────┼──────┤
+│                    │      │      │
+│                     ╲     │     ╱ 
+                       '-───┴───-'
+
+
+
+│
