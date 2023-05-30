@@ -1,4 +1,4 @@
-% PROTECT_SOMEONE(1)
+% PROTECT_SOMEONE(1) 1.0.0 | Runtime Commands
 % devnull
 % May 2262
 
@@ -6,8 +6,7 @@
 protect - suffer a consequence for a teammate
 
 # SYNOPSIS
-**protect** [teammate] [consequence]
+**protect** [*TEAMMATE*]... [*CONSEQUENCE*]...
 
 # DESCRIPTION
-If you step in to **protect** a teammate from a consequence, then you suffer the consequence instead of them. You may roll to resist it as normal.
-
+_If_ you step in to **protect** a teammate from a consequence, _then_ you suffer the consequence instead of them. You may roll to resist it as normal.
