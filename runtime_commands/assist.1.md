@@ -13,6 +13,7 @@ _If_ you step up to **assist** a teammate who is taking action, _then_ you mark 
  
 # NOTE
 Only one character may assist a given roll. If you really want to help and someone else is already assisting, consider performing a **setup** action instead. 
+
 A character may assist when someone **leads** a group action if they aren't taking part in it directly. You decide which teammate in the group action gets the bonus die.
 
 
