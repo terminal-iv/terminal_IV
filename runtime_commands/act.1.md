@@ -6,7 +6,7 @@
 act -  attempt something challenging and dangerous
 
 # SYNOPSIS
-**act** [*GOAL*]... [*ACTION*]... [*-S* *skill* | *-P* *specialty* | *-M* *mastery*] [*-c|r|d* *position options*] [*-z|l|s|g|x* *effect options*] [*-B* *boost*] [*-C* *cyber*] [*p* *push*] [*-t* *trade*] [*DICE POOL*]...
+**act** [*GOAL*]... [*ACTION*]... [**-S** *skill* | **-P** *specialty* | **-M** *mastery*] [**-c|r|d** *position options*] [**-z|l|s|g|x** *effect options*] [**-B** *boost*] [**-C** *cyber*] [**p** *push*] [**-t** *trade*] [*DICE POOL*]...
 
 # DESCRIPTION
 _If_ your character takes challenging and dangerous action, _then_ you make an **action roll** to see how it turns out. 
@@ -111,46 +111,46 @@ The Admin judges the result of the roll:
 ## INTERPRETING THE RESULTS 
 When you narrate the action after the roll, you and the Admin collaborate to say what happens on-screen. Use the following table as a guide:
 
-│ **CONTROLLED POSITION**
-│ You act on your terms. You exploit a dominant advantage.
-│
-│ **66+**: Critical! You do it with increased effect.
-│
-│ **6**:   You do it.
-│
-│ **4-5**: You hesitate. Withdraw and try a different approach, or else do it with 
-│      a minor consequence: a minor complication occurs, you have reduced 
-│      effect, you suffer lesser harm, you end up in a risky position.
-│
-│ **1-3**: You falter.
-│      Press on by seizing a risky opportunity, or withdraw and try a
-│      different approach.
+│ **CONTROLLED POSITION**\
+│ You act on your terms. You exploit a dominant advantage.\
+│\
+│ **66+**: Critical! You do it with increased effect.\
+│\
+│ **6**:   You do it.\
+│\
+│ **4-5**: You hesitate. Withdraw and try a different approach, or else do it with\ 
+│      a minor consequence: a minor complication occurs, you have reduced\ 
+│      effect, you suffer lesser harm, you end up in a risky position.\
+│\
+│ **1-3**: You falter.\
+│      Press on by seizing a risky opportunity, or withdraw and try a\
+│      different approach.\
 
-│ **RISKY POSITION**
-│ You go head to head. You act under fire. You take a chance.
-│
-│ **66+**: Critical! You do it with increased effect.
-│
-│ **6**:   You do it.
-│
-│ **4-5**: You do it, but there's a consequence: you suffer harm, a complication 
-│      occurs, you have reduced effect, you end up in a desperate position.
-│
-│ **1-3**: Things go badly. You suffer harm, a complication occurs, you end up in 
-│      a desperate position, you lose this opportunity.
+│ **RISKY POSITION**\
+│ You go head to head. You act under fire. You take a chance.\
+│\
+│ **66+**: Critical! You do it with increased effect.\
+│\
+│ **6**:   You do it.\
+│\
+│ **4-5**: You do it, but there's a consequence: you suffer harm, a complication\ 
+│      occurs, you have reduced effect, you end up in a desperate position.\
+│\
+│ **1-3**: Things go badly. You suffer harm, a complication occurs, you end up in\
+│      a desperate position, you lose this opportunity.\
 
-│ **DESPERATE POSITION**
-│ You overreach your capabilities. You're in serious trouble.
-│
-│ **66+**: Critical! You do it with increased effect.
-│
-│ **6**:   You do it.
-│
-│ **4-5**: You do it, but there's a consequence: you suffer severe harm, a serious 
-│      complication occurs, you have reduced effect.
-│
-│ **1-3**: It's the worst outcome. You suffer severe harm, a serious complication 
-│      occurs, you lose this opportunity for action.
+│ **DESPERATE POSITION**\
+│ You overreach your capabilities. You're in serious trouble.\
+│\
+│ **66+**: Critical! You do it with increased effect.\
+│\
+│ **6**:   You do it.\
+│\
+│ **4-5**: You do it, but there's a consequence: you suffer severe harm, a serious\ 
+│      complication occurs, you have reduced effect.\
+│\
+│ **1-3**: It's the worst outcome. You suffer severe harm, a serious complication\
+│      occurs, you lose this opportunity for action.\
 
 On a 1-3, it's up to the Admin to decide if the PC's action has any effect or not, or if it even happens at all. Usually, the action just fails completely, but in some circumstances, it might make sense or be more interesting for the action to have some effect even on a 1-3 result.
 
@@ -181,6 +181,8 @@ In no circumstances may your dice pool for the action roll exceed 5d unless, you
 
 
 # TO DO:
+
+
 
 
 Include notes on dice roll probability 
