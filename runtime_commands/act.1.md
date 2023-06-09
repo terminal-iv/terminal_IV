@@ -6,7 +6,7 @@
 act -  attempt something challenging and dangerous
 
 # SYNOPSIS
-**act** [*GOAL*]... [*ACTION*]... [**-S** *skill* | **-P** *specialty* | **-M** *mastery*] [**-c|r|d** *position options*] [**-z|l|s|g|x** *effect options*] [**-B** *boost*] [**-C** *cyber*] [**-p** *push*] [**-t** *trade*] [*DICE POOL*]...
+**act** [*GOAL*]... [*ACTION*]... [**-S** *skill* | **-P** *specialty* | **-M** *mastery*] [**-c|r|d** *position options*] [**-z|l|s|g|x** *effect options*] [**-B** *boost*] [**-C** *cyber*] [**-p** *push*] [**-t** *trade*] [*RESOLUTION*]... [**-p** *push*]
 
 # DESCRIPTION
 _If_ your character takes challenging and dangerous action, _then_ you make an **action roll** to see how it turns out. 
@@ -47,7 +47,7 @@ Add a number of dice to your dice pool based on your skill level in that action 
 **-M**, **--mastery**
 : You are widely acknowledged as a master in this field. Add **3d**: the **Skill Die**, **Specialty Die**, and **Mastery Die**.
 
-You set your starting skill levels in the various action ratings during character creation and upgrade them through character advancement.
+You set your starting skill levels in the various action ratings during **character creation** and upgrade them through **character advancement**.
 
 # 3: POSITION OPTIONS (ADMIN OWNS THIS PROCESS)
 The Admin sets the **position** for the roll. The position represents how dangerous the action is and how screwed you are if things go wrong. By default, an action roll is risky. 
@@ -60,6 +60,8 @@ The Admin sets the **position** for the roll. The position represents how danger
 
 **-d**, **--desperate**
 : You overreach your capabilities. You’re in serious trouble. At least you get to **mark XP**.
+
+## ABOUT POSITION
 
 # 4: EFFECT OPTIONS (ADMIN OWNS THIS PROCESS)
 The Admin assesses the likely **effect level** of this action, given the situation; "how much" can this action accomplish? Effect levels from low to high:
@@ -79,6 +81,8 @@ The Admin assesses the likely **effect level** of this action, given the situati
 **-x**, **--extreme**
 : 5 ticks; beyond great effect. You rule this scene. 
 
+## ABOUT EFFECT
+
 # 5: OTHER OPTIONS (YOU OWN THIS PROCESS)
 **-B --boost**
 : Add the **Boost Die** to your dice pool, by **pushing yourself** for a boost, accepting **assistance**, or making a **devil's bargain** (choose 1).
@@ -92,65 +96,58 @@ The Admin assesses the likely **effect level** of this action, given the situati
 **-t --trade**
 : Trade position for effect, or vice versa. 
 
-# 6: ROLL YOUR DICE POOL AND JUDGE THE RESULT (ADMIN OWNS THIS PROCESS)
+# 6: RESOLVE THE ACTION ROLL (YOU AND THE ADMIN JOINTLY OWN THIS PROCESS)
 Roll your dice pool. 
 
 If you've got to this step and you still have 0d in your pool, then roll 2d and keep the lowest result (obviously, you can't crit). Sure, 97% of the time you'll face a consequence, but 25% of the time you'll get a success too; on Terminal_IV, 1 in 4 is still pretty good odds. 
 
 ## EXIT VALUES
-The Admin judges the result of the roll: 
-
+ 
 **00**	66+	Crit Success		Success, with increased effect!
 	
 **0**	6	Full Success		You succeed in your action!
 	
 **1**	4-5	Partial Success		You succeed, but there are consequences
 	
-**2**	1-3	Bad Outcome		You fail, and there are consequences
+**2**	1-3	Bad Outcome	    	You fail, and there are consequences
 
 ## INTERPRETING THE RESULTS 
-When you narrate the action after the roll, you and the Admin collaborate to say what happens on-screen. Use the following table as a guide:
+The Admin will judge the **effects** and **consequences** resulting from the roll as below:
 
-│ **CONTROLLED POSITION**\
-│ You act on your terms. You exploit a dominant advantage.\
-│\
-│ **66+**: Critical! You do it with increased effect.\
-│\
-│ **6**:   You do it.\
-│\
-│ **4-5**: You hesitate. Withdraw and try a different approach, or else do it with\ 
-│      a minor consequence: a minor complication occurs, you have reduced\ 
-│      effect, you suffer lesser harm, you end up in a risky position.\
-│\
-│ **1-3**: You falter.\
-│      Press on by seizing a risky opportunity, or withdraw and try a\
-│      different approach.\
+**CONTROLLED POSITION**
+You act on your terms. You exploit a dominant advantage.
 
-│ **RISKY POSITION**\
-│ You go head to head. You act under fire. You take a chance.\
-│\
-│ **66+**: Critical! You do it with increased effect.\
-│\
-│ **6**:   You do it.\
-│\
-│ **4-5**: You do it, but there's a consequence: you suffer harm, a complication\ 
-│      occurs, you have reduced effect, you end up in a desperate position.\
-│\
-│ **1-3**: Things go badly. You suffer harm, a complication occurs, you end up in\
-│      a desperate position, you lose this opportunity.\
+**66+**: Critical! You do it with increased effect.
 
-│ **DESPERATE POSITION**\
-│ You overreach your capabilities. You're in serious trouble.\
-│\
-│ **66+**: Critical! You do it with increased effect.\
-│\
-│ **6**:   You do it.\
-│\
-│ **4-5**: You do it, but there's a consequence: you suffer severe harm, a serious\ 
-│      complication occurs, you have reduced effect.\
-│\
-│ **1-3**: It's the worst outcome. You suffer severe harm, a serious complication\
-│      occurs, you lose this opportunity for action.\
+**6**:   You do it.
+
+**4-5**: You hesitate. Withdraw and try a different approach, or else do it with a minor consequence: a minor complication occurs, you have reduced effect, you suffer lesser harm, you end up in a risky position.
+
+**1-3**: You falter. Press on by seizing a risky opportunity, or withdraw and try a different approach.
+
+Consequences here are less immediately dangerous, reflecting that you're acting from a position of control.
+
+**RISKY POSITION**
+You go head to head. You act under fire. You take a chance.
+
+**66+**: Critical! You do it with increased effect.
+
+**6**:   You do it.
+
+**4-5**: You do it, but there's a consequence: you suffer harm, a complication occurs, you have reduced effect, you end up in a desperate position.
+
+**1-3**: Things go badly. You suffer harm, a complication occurs, you end up in a desperate position, you lose this opportunity.
+
+**DESPERATE POSITION**
+You overreach your capabilities. You're in serious trouble.
+
+**66+**: Critical! You do it with increased effect.
+
+**6**:   You do it.
+
+**4-5**: You do it, but there's a consequence: you suffer severe harm, a serious complication occurs, you have reduced effect.
+
+**1-3**: It's the worst outcome. You suffer severe harm, a serious complication occurs, you lose this opportunity for action.
 
 On a 1-3, it's up to the Admin to decide if the PC's action has any effect or not, or if it even happens at all. Usually, the action just fails completely, but in some circumstances, it might make sense or be more interesting for the action to have some effect even on a 1-3 result.
 
@@ -183,6 +180,7 @@ In no circumstances may your dice pool for the action roll exceed 5d unless, you
 # TO DO:
 
 
+When you narrate the action after the roll, you and the Admin collaborate to say what happens on-screen. Use the following table as a guide:
 
 
 Include notes on dice roll probability 
