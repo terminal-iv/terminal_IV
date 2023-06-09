@@ -1,0 +1,382 @@
+                                       
+                                       
+                                       
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                                       
+                apex anchor 88,000km??
+                      or like 40-60km w 5kt weight                 
+                          60 boeing 747s (designed for much lighter elevator probably)         
+                                       
+                                       
+   how high is this?     Spaceport/    ▅
+                       Counterweight   │
+                                       │  
+                                       │                                       
+                                       │
+                                       │  
+                                       │
+                                       │  
+                                       │
+                                       │  
+                                       │
+                                       │
+                                       │                                       
+                                       │  │      radius 2km
+                                       │  │     ├───────────┤
+                                       │  │   ┬ ┌───────────────────────┐
+                                       │  │ h │ │
+                                       │  │ e │ │                                │
+                                       │  │ i │ │
+                                       │  │ g │ │
+                                       │  │ h │ │                                 
+ 36,000km geostationary orbit          │<─┤ t │ │   
+                                       │  │   │ │
+                                       │  │4km│ │
+                                       │  │   │ │
+                                       │  │   │ │
+                                       │  │
+                                       │
+                                       │  
+                                       │
+                                       │  
+                                       │
+                                       │
+                                       │                                         
+                                       │
+                                       │  
+                                       │  
+                                       │
+                                       │  
+                                       │
+                                       │ 
+                                       │ 
+                                       │ 
+                                       │ 
+                                       │ 
+                                       │ 
+                                       │       
+ 20,000km semi-synchronous orbit       │  
+                                       │                         
+                                       │ 
+                                       │                         
+                                       │              
+                                       │                              
+                                       │   
+                                       │   
+                                       │   
+                                       │   
+                                       │   
+                                       │   
+                                       │   
+                                       │   
+                                       │   
+                                       │   
+                                       │
+                                       │
+                                       │ 
+                                       │
+                                       │
+                                   <-- │  
+                                       │   
+                                       │           
+                                       │            
+                                       │                       
+                                       │
+                                       │
+ 2000km Top of LEO                     │           
+                                       │                                
+ 600km                                 │                           
+ 0km sea level                  __..---┴---..__      equator                           
+                            _,-'               `-._                             
+                         ,-'                       `-.                          
+                       ,'                             `.                         
+                     ,'                                 `.                      
+                    ;                                     :                     
+                   /                                       \                    
+                  /                                         \                   
+                 ;                                           :                  
+                 :                                           :                  
+                 :                   n.pole                  :                  
+                 :                                           :                  
+                 :                                           ;                  
+                  \                                         /                   
+                   \                                       /                    
+                    :                                     ;                     
+                     `.                                 ,'                      
+                       `.                             ,'                        
+                         `-.                       ,-'                          
+                            ``-.__           __.-''                             
+                                  ``-------``       
+                                  
+                                                              
+                                                                                
+Earth height = 20 lines
+Earth diameter = 12,714km
+1 line = ~636km
+Terminal_IV altitude = 35786 km; 56 lines
+
+
+Rules to keep in mind to get space travel that feels like it belongs in this
+setting, and rules to break to show that something doesn’t play by the
+established rules Space travel is set up to be difficult and dangerous, to
+enhance the pressure-cooker atmosphere of Terminal_IV. Getting out is a campaign
+arc in and of itself. Your players may never set foot on a spaceship all
+campaign long, but these suggestions should help maintain a consistent tone; of
+course, you have our permission to break them any time you feel like it. 
+
+
+
+
+The Zeroth Law: Infrastructure Gets It Done Space infrastructure projects are
+what made space transit economical. Any time you get a chance to put an
+elevator, skyhook, accelerator, laser highway etc on-screen, do so; delta-v is
+expensive (see the First Law), so rely on infrastructure for your propulsion
+wherever possible.  Terminal_IV is a love letter to space infrastructure, a
+celebration of what can be done when humanity comes together, and a cautionary
+tale about what happens when common goods are exploited for profit. Paint the
+infrastructure as an enabler of progress, an arena of corporate greed, and a
+means of accumulation and exploitation. Control of infrastructure = power
+(omnipotent corporations like the Phobos Hook Company and Sun Macrosystems can
+confirm).  *This law’s for free as it’s foundational to the entire premise of
+the setting, a space station on a space elevator. We love space infrastructure.
+
+
+
+
+
+
+The First Law: Delta-v Is Expensive Whatever means of propulsion you’re using,
+in order to change velocity, you need some kind of thrust, and that thrust is
+non-trivial to produce. Wherever you’re getting the energy from, whether it’s an
+on-board fuel source or external, treat it like it’s precious.  This will mean
+journeys take careful planning in advance; it may be advantageous to delay your
+departure until your destination is in a good position (e.g. for a low-energy
+Hohmann transfer); you’re likely not carrying much more fuel than is needed for
+your mission plan as mass reduces efficiency; if you realise you forgot
+something at the last spaceport it’s a huge pain to go back for it.  You’ll
+likely want one means of propulsion optimised for high thrust (manoeuvre burns),
+and another means of propulsion optimised for high specific impulse (efficient
+long-distance acceleration). Even if you have access to high-energy-density fuel
+sources like nuclear, ships in Terminal_IV can’t just go where they please. Get
+your delta-v from infrastructure wherever possible (see the Zeroth Law).
+Corollary: since delta-v is expensive, mass is too. Cargo and passengers cost
+money. Don’t expect to be able to get passage on a ship for free, margins tend
+to be tight.
+
+
+
+
+
+
+The Second Law: See Travel In Terms Of Orbits And Gravity Wells You’re in orbit
+when your ship’s velocity and the force of gravity pulling you towards an object
+are balanced such that you continuously fall around the object instead of
+falling into it or shooting off into space.  You’re almost always in orbit
+around something (if you don’t think you’re orbiting anything, check if you’re
+actually orbiting the Sun).  For a given radius from the centre of the object,
+there’s a velocity at which the orbit is stable; the highest velocity orbit has
+the lowest radius and vice-versa.  E.g. satellites in Low Earth Orbit like
+Freestation Zarya travel at a higher velocity than Terminal_IV which is in a
+higher (geostationary) orbit. They also complete more orbits in a day (16 vs 1).
+The higher the radius, the weaker the pull of gravity. Higher-radius orbits are
+considered “higher up the gravity well”, while lower-radius orbits are “lower
+down”.  Somewhat counter-intuitively, you need to speed up to move to a higher
+orbit, and slow down to move to a lower one.  To move to a higher orbit, burn
+your engine to increase your velocity. You’re now moving faster than gravity can
+pull you towards the object you’re orbiting, so you end up on an elliptical
+transfer orbit taking you further away from the object than you were before.
+Your velocity, temporarily increased by the burn, gradually decreases as you do
+work to climb out of the gravity well. Despite the lower velocity, your ship has
+more total energy as a result of the higher potential energy of the new orbit.
+You may complete another burn at the furthest point (apogee) of the elliptical
+orbit to circularise at a new orbit with a higher-radius and lower-velocity than
+the original. It’s stable as even though you’re travelling slower, gravity is
+weaker and you have further to fall.  To achieve the opposite effect and drop to
+a lower orbit, burn your engines opposite your direction of travel to slow down.
+Maybe you speed up so much you escape the gravity well altogether and go into
+orbit around something else, or slow down so much you contact the thing you’re
+orbiting.  When you move from one location in space to another, you’re putting
+yourself into a transfer orbit; your origin and destination should be points on
+that orbit.  E.g. departing from Terminal_IV in geostationary orbit and entering
+a transfer orbit that will take you down to Freestation Zarya in Low Earth Orbit
+is roughly the same process as departing Mars orbit and entering a transfer
+orbit that will take you down to Earth orbit.  Changing velocity means expending
+energy, which is expensive (see The First Law) so catch a lift up or down the
+gravity well wherever you can (see The Zeroth Law). 
+
+Orbit stuff is _weird_ but just remember you can’t increase or decrease speed
+and keep the same orbit - to catch up to something you either need to go to a
+higher orbit and wait for them to come back round or go down to a lower one,
+overtake, and then burn back up to meet them
+
+
+apoapsis/periapsis
+
+burn radially/anti-radially
+
+
+
+
+The Third Law: Space Is Big, Your Ships Are Slow Space is big[citation needed]
+so everything’s very far away from everything else. Spaceships need to depart
+well in advance of when they intend to arrive. Information only travels at the
+speed of light, and ships travel much slower, so travel and trade are
+characterised by lag.  Ships also need to be a certain size to fit in the life
+support and propulsion requirements for that length of journey, so you’re
+probably not doing interplanetary flight in a tiny two-seater transfer shuttle
+(unless you’ve managed to accelerate it very fast indeed and have some way of
+stopping at the other end (see The Seventh Law)).  Example travel times go here
+- stations within Earth’s orbit like Kalpana Station, Freestation-Zarya;
+interplanetary travel; far reaches of the solar system
+
+
+
+
+
+The Fourth Law: Almost Nothing Does Re-entry Anymore The kinds of spaceships
+which are efficient for interplanetary travel are not well-suited to the
+business of atmospheric entry, and it’s not economical to use spaceships to move
+mass up and down a gravity well when infrastructure is available (see the
+Zeroth, First and Second Laws).  Generally, goods are transported up the gravity
+well on elevators or skyhooks and then transshipped to continue their journey.
+SSTO (Single Stage To Orbit) vehicles do exist, but are rare and generally used
+for shuttling around high-paying personnel who want to skip the slow train ride
+up the tether to orbit. Solar system bodies with weak gravity and little-to-no
+atmosphere are routine to dock on for most kinds of spaceships, and the light
+atmosphere and gravity of Mars see relatively frequent launches; the thick
+atmosphere and strong gravity of Earth however make launches and landings there
+a rare occurrence.
+
+
+
+
+
+
+The Fifth Law: You Need Radiators Give your ship some damn radiators. Radiation
+is like the only way to lose heat in space and your ship probably produces a lot
+it needs to dissipate. The greater the radiators’ surface area, the better
+they’ll dissipate the heat into the void.  They’re also beautiful if you
+describe them right. More sci-fi should give ships radiators, for real. Be the
+change you want to see and slap radiators on that ship. If you’re building a
+stealth ship they won’t work though - see the bit of the book on stealth
+steamers which use hydrogen/helium to cool their hull down to be undetectable
+against background. 
+
+
+
+
+
+The Sixth Law: Every Ship Is A Weapon Of Mass Destruction Authorities a) like to
+know where every ship in the solar system is at all times and b) control who is
+allowed to pilot those ships. Obviously the net has many holes: some places will
+not recognise pilot accreditations from other places, some spaceports harbour
+illegal and undocumented vessels, etc. Defence forces are all too happy to
+intervene if you are behaving dangerously or erratically, and procuring a ship
+legally is a difficult and long process.  Things in space move very fast, and
+when even small pieces of debris collide with objects at orbital velocities bad
+things happen. When it’s a whole spaceship acting as the impactor, even worse
+things will happen (see The Seventh Law for a reminder of the importance of
+being able to stop). Additionally, the line between “reactor” or “engine” and
+“bomb” can be very blurred, and engine exhaust can be damaging in and of itself. 
+
+
+
+
+
+The Seventh Law: Remember To Decelerate If you arrive at a destination without
+decelerating first, you either become a weapon of mass destruction if you hit it
+(see The Sixth Law) or can’t scrub enough speed to enter orbit and do an
+embarrassing unplanned flyby. To avoid that, try to spend about half your
+journey time accelerating, do a flip at the halfway point so you’re flying
+backwards, and then use your main engines to decelerate back towards zero before
+you arrive where you’re trying to go.  Coasting in the middle of the journey
+rather than constantly accelerating will be slower but more fuel-efficient.
+Unfortunately you will experience no gravity for the period you’re not running
+the engine unless you have some kind of spin gravity setup (see The Eighth Law).
+There’s not really much sense of direction in space so flying backwards isn’t
+that weird.  If you decelerate too rapidly, for example by hitting something,
+that’s probably fatal to all onboard for a number of different reasons.
+
+
+
+
+
+
+The Eighth Law: You Get Gravity Only If You’re Spinning Or Under Thrust Magic
+artificial gravity is banned, sorry. However, if your ship is arranged like a
+skyscraper with vertically-stacked decks and the engines at the base, any time
+you’re under constant linear acceleration of around 1g your characters can walk
+around as on Earth.  You can assume this applies any time the engines are
+providing thrust in a straight line, unless you’re accelerating aggressively, in
+which case everything will feel much heavier than on Earth as if you’re in a
+very fast lift.  If you’re not under thrust, you’ll need to spin the spaceship
+to produce a fictitious force throwing you away from the spin axis, just like
+how it works on Terminal_IV.  Some vessels’ habitable decks can swing so that
+they can be arranged either perpendicular to the direction of travel while under
+constant acceleration, or parallel to it to be spun up for spin gravity while
+coasting. This is mostly only considered worth the extra mass of the mechanism
+for extremely long journeys where accelerating the entire time is uneconomical
+and the crew can’t just suck it up and deal with the weightless environment (see
+The Ninth Law).
+
+
+
+
+
+The Ninth Law: Interstellar Travel Is Its Own Weird Other Thing The first humans
+are setting out to visit other stars. If you embark on such a journey, expect to
+die en-route. Cryogenic suspension technology is in development, but it’s not
+there yet. Interstellar is increasingly being seen as the next big opportunity
+for expansion and profit now that the solar system has been extensively
+colonised - but don’t let that trick you into thinking the solar system has been
+in any way tamed (see The Tenth Law).
+
+
+
+
+
+
+The Tenth Law: Space Is Dangerous While the dangers of hard vacuum are not
+always as bad as you might think (the pressure differential between your
+spaceship and the vacuum isn’t so great that small holes can cause the whole
+vessel to explosively decompress or whatever, and you can survive hard vacuum
+exposure for a few seconds to a minute just fine), many many things in space are
+trying to kill you. Radiation, negative effects of microgravity, engineering
+contracted out to the lowest bidder, etc. Paint spaceflight as inherently risky
+and space itself as a threat.  Do not engage in space combat, it is not worth
+it.  To repeat, it is absolutely NOT worth it. Everyone agrees that nothing good
+can come of space combat and everyone tries to keep out of it as much as
+possible. Having said that, almost all spaceships are armed to some extent and
+if you do choose to engage in space combat, there is a section of this book full
+of suggestions.
+
+
