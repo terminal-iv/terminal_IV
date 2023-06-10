@@ -50,6 +50,7 @@ NOTES
 
 
 
+written up better in the cyberware directory example file
 
 
 Class C Cyberware
@@ -92,11 +93,6 @@ you’re always the first to act, and can interrupt anyone else who tries to bea
 you to the punch. This ability usually doesn’t negate the need to make an
 action roll that you would otherwise have to make, but it may improve your
 position or effect.
-
-I need some satisfying way to make the Kerenzikov not just feel like good reflexes and Kiroshi optics not just feel like good eyesight, etc 
-
-The cyber die isn’t a complete solution here
-
 
 
 
