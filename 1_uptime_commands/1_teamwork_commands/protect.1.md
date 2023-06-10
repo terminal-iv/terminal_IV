@@ -1,4 +1,4 @@
-% PROTECT_SOMEONE(1) 1.0.0 | Runtime Commands
+% PROTECT_SOMEONE(1) 1.0.0 | Uptime Commands
 % devnull
 % May 2262
 
