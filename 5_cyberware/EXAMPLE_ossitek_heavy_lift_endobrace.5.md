@@ -15,7 +15,7 @@ See the class breakdown further down this file; delete the lines that don't appl
 
 > Class B: "always-on" cyberware which passively offers a specific fictional permission or mechanical advantage. When your cyberware offers you an advantage during an action roll, you may **leverage cyberware** to roll the Cyber Die.  
 
-# 3 Descirbe what physical form your cyberware takes and where in your body it's located
+# 3 Describe what physical form your cyberware takes and where in your body it's located
 E.g. chip, artificial limb, eye implant, etc
 
 > A reinforced skeleton; nano-fibre-woven braces and big chunks of metal surround key parts of my skeleton, supporting the joints and reinforcing the bone. My tendons and ligaments are also replaced with stronger synthetic equivalents.
