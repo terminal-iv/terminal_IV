@@ -1,4 +1,4 @@
-% SET\_SOMEONE\_UP(1) 1.0.0 | Runtime Commands
+% SET\_SOMEONE\_UP(1) 1.0.0 | Uptime Commands
 % devnull
 % May 2262
 
