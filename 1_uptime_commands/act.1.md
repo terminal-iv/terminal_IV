@@ -6,7 +6,7 @@
 act -  attempt something challenging and dangerous
 
 # SYNOPSIS
-**act** [*GOAL*]... [*ACTION*]... [**-S** *skill* | **-P** *specialty* | **-M** *mastery*] [**-c|r|d** *position options*] [**-z|l|s|g|x** *effect options*] [**-B** *boost*] [**-C** *cyber*] [**-p** *push*] [**-t** *trade*] [*RESOLUTION*]... [**-p** *push*]
+**act** [*GOAL*]... [*ACTION*]... [**-S** *skill* | **-P** *specialty* | **-M** *mastery*] [**-c|r|d** *position options*] [**-z|l|s|g|x** *effect options*] [**-B** *boost*] [**-C** *cyber*] [**-p** *push*] [**-t** *trade*] [*RESOLUTION*]... [**-R** *resist*]
 
 # DESCRIPTION
 _If_ your character takes challenging and dangerous action, _then_ you make an **action roll** to see how it turns out. 
