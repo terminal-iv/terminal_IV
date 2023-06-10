@@ -18,30 +18,28 @@ See the class breakdown further down this file; delete the lines that don't appl
 # 3 Descirbe what physical form your cyberware takes and where in your body it's located
 E.g. chip, artificial limb, eye implant, etc
 
-> A reinforced skeleton; nano-woven braces sheathing key parts of your skeleton support the joints and reinforce the bone. My tendons and ligaments are replaced with stronger synthetic
+> A reinforced skeleton; nano-fibre-woven braces and big chunks of metal surround key parts of my skeleton, supporting the joints and reinforcing the bone. My tendons and ligaments are also replaced with stronger synthetic equivalents.
 
 # 4 Describe in one or two sentences how your cyberware affects the fiction when it's in use.
 It may help to compare your character's abilities when leveraging their cyberware to normal human limits. 
 
->  
+> I can lift much more weight than is humanly possible, and am extremely resistant to breaking bones on blunt force impact. 
 
-# 5 Answer these background questions:
-
-## Why did you end up with this cyberware?
+# 5 Why did you end up with this cyberware?
 
 > It's to help me lift stuff for my construction job and generally reduce the chance of dying on site.  
 
-## How did you acquire/pay for it?
+# 6 How did you acquire/pay for it?
 
 > Company paid, they take it back if you quit or get fired, though. That or you gotta pay... not a lot of ex-construction workers
 
-## Provide a detail about your cyberware's installation process
+# 7 Provide a detail about your cyberware's installation process
 
 > It's pretty invasive - big old scar down my spine. They basically do the same thing you do to fish cept you got arms and legs too
 
-## Who chipped you? How well do you know them? Are you still in contact?
+# 8 Who chipped you? How well do you know them? Are you still in contact?
 
-## What kind of maintenance does your cyberware need? Do you have to see a doc for that, or can you do it yourself?
+# 9 What kind of maintenance does your cyberware need? Do you have to see a doc for that, or can you do it yourself?
 
 
 
@@ -67,7 +65,7 @@ It may help to compare your character's abilities when leveraging their cyberwar
 
 
 
-
+DO THIS BIT haskjdhjka
 
 
 NOTE: These classes are NOT diegetic. They are a way to categorise cyberware by its mechanical costs and effects; as an in-fiction cyberware classification system it makes less than zero sense.
