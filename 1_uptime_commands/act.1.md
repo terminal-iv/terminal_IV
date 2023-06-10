@@ -6,7 +6,7 @@
 act -  attempt something challenging and dangerous
 
 # SYNOPSIS
-**act** [*GOAL*]... [*ACTION*]... [**-S** *skill* | **-P** *specialty* | **-M** *mastery*] [**-c|r|d** *position options*] [**-z|l|s|g|x** *effect options*] [**-B** *boost*] [**-C** *cyber*] [**-p** *push*] [**-t** *trade*] [*RESOLUTION*]... [**-R** *resist*]
+**act** [*OBJECTIVE*]... [*ACTION*]... [**-S** *skill* | **-P** *specialty* | **-M** *mastery*] [**-c|r|d** *position options*] [**-z|l|s|g|x** *effect options*] [**-B** *boost*] [**-C** *cyber*] [**-p** *push*] [**-t** *trade*] [*RESOLUTION*]... [**-R** *resist*]
 
 # DESCRIPTION
 _If_ your character takes challenging and dangerous action, _then_ you make an **action roll** to see how it turns out. 
@@ -26,10 +26,10 @@ Your Action Roll dice pool may comprise up to 3 **Action Dice** (the Skill, Spec
 
 The 6 processes to build the pool, roll, and interpret the results are as follows:
 
-# 1: GOAL (YOU OWN THIS PROCESS)
-State your goal: the concrete outcome your character will achieve when they overcome the obstacle at hand.
+# 1: OBJECTIVE (YOU OWN THIS PROCESS)
+State your objective: the concrete outcome your character will achieve when they overcome the obstacle at hand.
  
-Usually the character's goal is obvious in context, but it's the Admin’s job to ask questions to clarify when necessary.
+Usually the character's objective is obvious in context, but it's the Admin’s job to ask questions to clarify when necessary.
 
 # 2: CHOOSE AN ACTION AND BUILD INITIAL DICE POOL (YOU OWN THIS PROCESS)
 Choose the action rating that best fits the action your character is taking in the fiction. 
