@@ -1,4 +1,4 @@
-% TREAT_SOMEONE(1) 1.0.0 | Runtime Commands
+% TREAT_SOMEONE(1) 1.0.0 | Uptime Commands
 % devnull
 % May 2262
 
