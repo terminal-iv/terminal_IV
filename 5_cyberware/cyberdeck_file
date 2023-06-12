@@ -7,8 +7,12 @@
 - unique section for special item type - e.g. cyberdeck, cyberware, drone, unique weapon, etc
 
 │                                                                              │
-
-
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
 
 
 ├─cyberdeck────────────────────────────────────┬──────┬─armour─┬─healing─clock─┤
@@ -27,6 +31,36 @@ ossitek m57 heavy lift endobrace
 
 creating a cyberdeck
 
+Ossitek - bone stuff
+Circle - luxe
+Celer8 - budget
+ThinkDeck - ruggedised
+Nyaron - intrusion-hardened
+???    - quiet, energy-efficient
+???    - intrusion-hardened
+Prima Luce Optics
+Delphi 
+Hoya
+Dynamix 
+AlphaPharma
+AB&B
+Stellar Labs
+BlkIce
+Slaytheon Technologies
+Northrop-Rheinmetall Systems
+Earth Aerospace Engineering 
+Sun Macrosystems
+Phobos Hook Company
+Matrioshka
+i-ODIN - surveillance optics 
+Argus
+condottieri inc 
+Outback Munitions
+CryptoAI
+
+
+
+
 
 synopsis:
 - allows quickhacks
@@ -43,6 +77,8 @@ manufacturer
 model
 
 special item name
+
+corpo
 
 edges & flaws
 
