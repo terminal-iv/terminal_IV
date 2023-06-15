@@ -1,3 +1,5 @@
+# THE HOOK
+
 -----BEGIN PGP MESSAGE-----
 Version: GnuPG v.6.4.1 (GNU/Linux)
 
@@ -88,5 +90,30 @@ oh btw gotta move fast on this so I'm assuming you're in unless you lmk
 otherwise. all being well we move tonight. If we heard about this others will 
 have too, gotta beat them to the punch!!
 -----END PGP MESSAGE-----
+
+# PLANNING & ENGAGEMENT
+
+The crew has chosen the "blitz" plan type. The idea is to get onboard
+the train, grab the immunostabs, and extract before their adversaries can react.
+They named the train as the target, and an AV they hired from a second-hand
+vehicle dealer contact as the extraction method.  
+
+"So we need to roll to see if we get the AV?" Twofish's player asks.
+
+"No no, you're already in the AV. We're rolling to see if it's any good or not!
+He told you he wanted it back in one piece, right Twofish?"
+
+"Yeah, and I told him 'no promises'. Anyway, if this heist works out, we can
+afford not to get the deposit back... so this is an **acquire** command?"
+
+It is. The crew spends a credit from the crew's pool and Twofish's player makes
+an Acquire Asset roll as set out in the **acquire** command. As a Tier II crew,
+they roll 2d and get a 4: a quality-2 "good" AV. They grab a "Special Item:
+Vehicle" sheet for it and quickly fill out just enough to get a sketch of what
+they're travelling in. Other details can wait until they become relevant.
+
+It's an ex-corporate VTOL-van, formerly owned by a window-cleaning company and
+still painted in their livery. It's got a good amount of cargo space and it's
+powered by a strong Rolls-Martin jet engine. 
 
 
