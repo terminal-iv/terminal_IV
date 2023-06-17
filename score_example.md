@@ -112,8 +112,8 @@ they roll 2d and get a 4: a quality-2 "good" AV. They grab a "Special Item:
 Vehicle" sheet for it and quickly fill out just enough to get a sketch of what
 they're travelling in. Other details can wait until they become relevant.
 
-It's an ex-corporate VTOL-van, formerly owned by a window-cleaning company and
+It's an ex-corporate synchro-van, formerly owned by a window-cleaning company and
 still painted in their livery. It's got a good amount of cargo space and it's
-powered by a strong Rolls-Martin jet engine. 
+powered by a pair of strong Rolls-Martin turboshaft jet engines.
 
 
