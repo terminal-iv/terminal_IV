@@ -13,7 +13,11 @@
 │                                                                              │
 │   get in touch: @puns_and_ships@dice.camp, puns_and_ships#8105               │
 │                                                                              │
-├─alias───────────────────────────────────────────────┬─playbook───────────────┤ 
+└──────────────────────────────────────────────────────────────────────────────┘
+
+ ═════════════════════════════════ CORE STATS ═════════════════════════════════
+ 
+┌─alias───────────────────────────────────────────────┬─playbook───────────────┐
 │                                                     │ NETRUNNER: a hacker    │
 │                                                     │ extraordinaire         │
 ├─bio─────────────────────────────────────────────────┼─actions────┬───┬───┬───┤   
@@ -70,21 +74,24 @@
 ├─trauma───────────────────────────────────────────────────────┤  .    │    .  │
 │                                                             <┼─  `"──┴──"`   │
 │ cold—haunted—obsessed—paranoid-reckless—soft—unstable—vicious│ time runs out │
-├──────────────────────────────────────────────────────────────┴───────────────┤
-├─load─remaining───────────────────────────────────────────────────────────────┤
+└──────────────────────────────────────────────────────────────┴───────────────┘
+
+ ════════════════════════════════ LOAD & ITEMS ════════════════════════════════
+ 
+┌─load─remaining───────────────────────────────────────────────────────────────┐
 │   9     8     7     6     5     4     3     2     1     0    b1    b2    b3  │ 
 │   │     │     │     │    [│=====│>    │     │     │     │     │     │     │  │
 │   │                 │     │           │                 │                    │
 │   encumbered        heavy normal      light             bonus                │
-├─load/playbook─items─────────────────────────────────┬─load/generic─items─────┤
+├─load/special─items──────────────────────────────────┬─load/generic─items─────┤
 │                                                     │                        │
-│   key: ( ) = 0;    [ ] = 1;    [ ]:[ ] = multiple   │ blade or two       [ ] │
+│   key:  ( ) = 0 load; [ ] = 1; [ ]:[ ] = multiple   │ blade or two       [ ] │
 │                                                     │                        │
 │   item                                        [ ]   │ handgun [ ]   pair [ ] │
 │                                                     │                        │ 
-│   ghost key                                   ( )   │ large weapon   [ ]:[ ] │
+│   item                                        ( )   │ large weapon   [ ]:[ ] │
 │                                                     │                        │
-│   demonbane charm                             ( )   │ unusual weapon     [ ] │
+│   item                                        ( )   │ unusual weapon     [ ] │
 │                                                     │                        │
 │                                                     │ armour         [ ]:[ ] │
 │                                                     │ │                      │
@@ -107,49 +114,96 @@
 │   └── type: e.g. assassins'         uses: ( ) ( )   │ lantern            [ ] │
 │                                                     │                        │
 ├─────────────────────────────────────────────────────┴────────────────────────┤
-├─chrome─clock───────────┬─load/immunostabs───────────┬─auto─injectors─────────┤
+│                                           insert item blocks above this line │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+ ══════════════════════════════════ CYBERWARE ═════════════════════════════════
+ 
+┌─chrome─clock───────────┬─load/immunostabs───────────┬─auto─injectors─────────┐
 │                        │                            │                        │      
-│      .-"``│``"-.       │    no. used       ┌───┐    │   immune-suppressant   │
-│    .* ╲ 6 │     *.     │    since last     │ 0 │    │  combat auto-injector  │
-│   /. 5 ╲  │    1  \    │    maintenance:   └───┘    │                        │
+│      .-"``│``"-.       │   no. immunostabs   ┌───┐  │   immune-suppressant   │
+│    .* ╲ 6 │     *.     │   since last        │ 0 │  │  combat auto-injector  │
+│   /. 5 ╲  │    1  \    │   maintenance:      └───┘  │                        │
 │  : 4 " .╲ │        :   │                            │ 1. remove  ʌ  _________│ 
-│  :────────┼────────:   │        1 load each         │ top cap    │  \_twist_/│
+│  :────────┼────────:   │    1 immunostab = 1 load   │ top cap    │  \_twist_/│
 │  :        │        ;   │                            │_________        \___/  │
 │   \  3    │    2  /    ├─overloads──────────────────┤\┌┐   ┌┐/       ┌┐   ┌┐ │
 │    `.     │     .'     │                            │ │\_█_/│        │__---│ │ 
-│       '-..│..-'        │    no. overloads  ┌───┐    │ │══█══┼─spring─┼__---│ │
-│        overload      ──┼─>  since last     │ 0 │    │ │═┌▀┐═│        │__---│ │
-│                        │    maintenance:   └───┘    │ │═│█│═│        │__---│ │
-│   fill 1 segment per   │                            │ │═│█│═│        │__│--│ │
-│  class A/B cyberware;  │  when chrome clock fills,  │ │═│█│═│        │__│--│ │
-│   tick on Cyber 1-3    │   drop out of this scene   │ │═│█│═│        │__│--│ │
+│       '-..│..-'        │   no. overloads     ┌───┐  │ │══█══┼─spring─┼__---│ │
+│        overload      ──┼>  since last        │ 0 │  │ │═┌▀┐═│        │__---│ │
+│                        │   maintenance:      └───┘  │ │═│█│═│        │__---│ │
+│  tick on class A Cyber │                            │ │═│█│═│        │__│--│ │
+│   Die 1-3; permafill   │  when chrome clock fills,  │ │═│█│═│        │__│--│ │
+│  per class A-B chrome  │   drop out of this scene   │ │═│█│═│        │__│--│ │
 │                        │                            │ ├▅▅█▅▅┼─plunger│__│--│ │
 ├─cyber─contacts─────────┴────────────────────────────┤ │     │        │__│--│ │ 
-│                                                     │ │     │        │__│--│ │ 
-│                                                     │ │     │        │__v--│ │ 
-│   where do you get your immunostabs?                │ │    ─┼─vial   │__---│ │ 
-│                                                     │ │     │        │__█--│ │ 
-│                                                     │ │     │        │__█--│ │ 
-│   your implants' details:                           │ │     │        │_┌▀┐-│ │
-│                                                     │ ├─_ _─┤        │_│█│-│ │
-│                                                     │ ├── ──┤        │_│█│-│ │
-│                                                     │ │┌─│─┐│        │_│█│-│ │
-│                                                     │ ││ │ ││        │_│█│-│ │
-│                                                     │ ││ │ ││        ├▅▅█▅▅┤ │
-│                                                     │ │  │  │        │     │ │
+│                                                     │ │    ─┼─vial   │__│--│ │ 
+│   who's your regular chipperdoc?                    │ │     │        │__v--│ │ 
+│   │                                                 │ │     │ last   │__---│ │ 
+│   │                                                 │ │     │ resort │__█--│ │ 
+│   │                                                 │ │     │ only:  │__█--│ │ 
+│   ├── from where do they operate their clinic?      │ │     │ use    │_┌▀┐-│ │
+│   │                                                 │ ├─_ _─┤ when   │_│█│-│ │
+│   │                                                 │ ├── ──┤ on     │_│█│-│ │
+│   │                                                 │ │┌─│─┐│ brink  │_│█│-│ │
+│   └── what's your relationship with them like?      │ ││ │ ││ of     │_│█│-│ │
+│                                                     │ ││ │ ││ over-  ├▅▅█▅▅┤ │
+│                                                     │ │  │  │ load   │     │ │
 │                                                     │ │  │  │        ├─_ _─┤ │
-│                                                     │ │  │  │        ├┬─│─┬┤ │
+│   where do you get your immunostabs?                │ │  │  │        ├┬─│─┬┤ │
 │                                                     │ │  ├──┼─needle─┼┼─┤ ││ │
 │                                                     │ │  │  │        ││ │ ││ │
 │                                                     │  \   /          \ │ /  │
-│                                                     │  │ │ │          │ │ │  │
+│   how has your cyberware put you in debt?           │  │ │ │          │ │ │  │
 │                                                     │    v              │    │
 │                                                     │ 2. push firmly    │    │
 │                                                     │ against outside   │    │
 │                                                     │ thigh (10 seconds)     │
 │   not using chrome? just delete this whole section  │ do not touch this end  │
 │                                                     │                        │
-├─────────────────────────────────────────────────────┼────────────────────────┤
+├─────────────────────────────────────────────────────┴────────────────────────┤
+├─cyberware: modified Mens/Materia Neurodeck 4000-series DoC───────────────────┤
+│                        │                     ┌───┐  │                  ┌───┐ │
+│                        │  cyberware quality: │ 1 │  │ cyberware class: │ B │ │
+│                        │                     └───┘  │                  └───┘ │
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │ 
+│ │ manufacturer: Mens/Materia                                               │ │
+│ │                                                                          │ │      
+│ │        model: Neurodeck 4000-series Deck-On-A-Chip modified to act as a  │ │
+│ │               "Psychadelink" brainsong interface                         │ │      
+│ │                                                                          │ │
+│ │         look: neural implant                                             │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+│   edges:      
+│
+│
+│   flaws:      
+│
+│
+│
+├──────────────────────────────────────────────────────────────────────────────┤   
+                                      
+
+                          
+
+
+
+
+
+├──────────────────────────────────────────────────────────────────────────────┤
+
+why did you end up with this cyberware?
+
+how did you acquire/pay for it?
+
+who chipped you? 
+
+who does maintenance on this cyberware? yourself-your chipperdoc-a specialist
+
+detail about the installation process
 
 
 
@@ -165,7 +219,14 @@
 
 
 
-├─strange─friends/rivals──────────────────────────────┬────────────────────────┤
+
+├──────────────────────────────────────────────────────────────────────────────┤
+│                                      insert cyberware blocks above this line │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+
+
+├─adjective─friends/rivals────────────────────────────┬────────────────────────┤
 │                                      friend  rival  │                        │
 │   Nyrix, a professor ghost              [ ]    [ ]  │                        │
 │                                                     │   this space? idk      │
