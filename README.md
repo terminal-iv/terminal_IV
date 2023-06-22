@@ -23,7 +23,8 @@ Inspired by the Unix philosophy, terminal_IV's rules will be minimal and
 modular, split into bite-sized discrete self-contained sections inspired by PBTA moves with clear triggers; players need only engage with rules with trigger conditions that are currently active. 
 
 ### T_IV's Not BITD
-...but it shouldn't introduce too many minor rules alterations to keep track of. We aim to introduce departures from the original BITD ruleset judiciously to maximise the impact of the major changes while minimising the amount of subtle deviations players will have to remember.
+~~...but it shouldn't introduce too many minor rules alterations to keep track of. We aim to introduce departures from the original BITD ruleset judiciously to maximise the impact of the major changes while minimising the amount of subtle deviations players will have to remember.~~
+Never mind, this one was dumb. We're forging our own path 
 
 There'll be more, but it's these three for now.
 
