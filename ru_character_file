@@ -79,8 +79,8 @@
  ════════════════════════════════ LOAD & ITEMS ════════════════════════════════
  
 ┌─load─remaining───────────────────────────────────────────────────────────────┐
-│   9     8     7     6     5     4     3     2     1     0    b1    b2    b3  │ 
-│   │     │     │     │    [│=====│>    │     │     │     │     │     │     │  │
+│   9     8     7     6     5     4     3     2     1     0    b1    b2    b3  │
+│   │     │     │    [│=====│=====│=====│=====│=====│>    │     │     │     │  │
 │   │                 │     │           │                 │                    │
 │   encumbered        heavy normal      light             bonus                │
 ├─load/special─items──────────────────────────────────┬─load/generic─items─────┤
@@ -88,7 +88,7 @@
 │   key:  ( ) = 0 load; [ ] = 1; [ ]:[ ] = multiple   │ blade or two       [ ] │
 │                                                     │                        │
 │   item                                        [ ]   │ handgun [ ]   pair [ ] │
-│                                                     │                        │ 
+│                                                     │                        │
 │   item                                        ( )   │ large weapon   [ ]:[ ] │
 │                                                     │                        │
 │   item                                        ( )   │ unusual weapon     [ ] │
@@ -161,29 +161,39 @@
 │                                                     │ thigh (10 seconds)     │
 │   not using chrome? just delete this whole section  │ do not touch this end  │
 │                                                     │                        │
-├─────────────────────────────────────────────────────┴────────────────────────┤
-├─cyberware: modified Mens/Materia Neurodeck 4000-series DoC───────────────────┤
-│                        │                     ┌───┐  │                  ┌───┐ │
-│                        │  cyberware quality: │ 1 │  │ cyberware class: │ B │ │
-│                        │                     └───┘  │                  └───┘ │
-│ ┌──────────────────────────────────────────────────────────────────────────┐ │ 
-│ │ manufacturer: Mens/Materia                                               │ │
+├─cyberware───────────────────────────────────────────┴────────────────────────┤
+│ ┌─modified Mens/Materia Neurodeck 4000-series DoC──────────────────────────┐ │ 
+│ │                                                                    ┌───┐ │ │
+│ │ manufacturer: Mens/Materia                      cyberware quality: │ 1 │ │ │
+│ │                                                                    └───┘ │ │
+│ │        model: Neurodeck 4000-series                                ┌───┐ │ │
+│ │               Deck-On-A-Chip modified to act      cyberware class: │ B │ │ │
+│ │               as a "Psychadelink" brainsong                        └───┘ │ │      
+│ │               interface
+
+
 │ │                                                                          │ │      
-│ │        model: Neurodeck 4000-series Deck-On-A-Chip modified to act as a  │ │
-│ │               "Psychadelink" brainsong interface                         │ │      
-│ │                                                                          │ │
+
 │ │         look: neural implant                                             │ │
 │ │                                                                          │ │
 │ │                                                                          │ │
 │ └──────────────────────────────────────────────────────────────────────────┘ │
 │                                                                              │
-│   edges:      
-│
-│
-│   flaws:      
-│
-│
-│
+│   edges:                                                                     │
+│                                                                              │
+│                                                                              │
+│   flaws:                                                                     │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
 ├──────────────────────────────────────────────────────────────────────────────┤   
                                       
 
@@ -244,14 +254,45 @@ detail about the installation process
 
 
 
+├─special item (cyberdeck): Mens/Materia Neurodeck 4000-series DoC─────────────┤
+│                        │                     ┌───┐  │                  ┌───┐ │
+│                        │  spec item quality: │ 1 │  │  spec item load: │ 2 │ │
+│                        │                     └───┘  │                  └───┘ │
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │ 
+│ │ manufacturer: Mens/Materia                                               │ │
+│ │                                                                          │ │      
+│ │        model: Neurodeck 4000-series Deck-On-A-Chip modified to act as a  │ │
+│ │               "Psychadelink" brainsong interface                         │ │      
+│ │                                                                          │ │
+│ │         look: neural implant                                             │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+│   edges:                                                                     │
+│                                                                              │
+│                                                                              │
+│   flaws:                                                                     │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+├──────────────────────────────────────────────────────────────────────────────┤  
 
 
 
 
 
 
-
-
+│ ┌──────────────────────────────────────────────────────────────────────────┐ │ 
+│ │ manufacturer: Mens/Materia                                               │ │
+│ │                                                                          │ │      
+│ │        model: Neurodeck 4000-series Deck-On-A-Chip modified to act as a  │ │
+│ │               "Psychadelink" brainsong interface                         │ │      
+│ │                                                                          │ │
+│ │         look: neural implant                                             │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
 
 
 
