@@ -122,9 +122,9 @@
 ┌─chrome─clock───────────┬─load/immunostabs───────────┬─auto─injectors─────────┐
 │                        │                            │                        │      
 │      .-"``│``"-.       │   no. immunostabs   ┌───┐  │   immune-suppressant   │
-│    .* ╲ 6 │     *.     │   since last        │ 0 │  │  combat auto-injector  │
-│   /. 5 ╲  │    1  \    │   maintenance:      └───┘  │                        │
-│  : 4 " .╲ │        :   │                            │ 1. remove  ʌ  _________│ 
+│    .` ╲ 6 │     `.     │   since last        │ 0 │  │  combat auto-injector  │
+│   /".5 ╲  │    1  \    │   maintenance:      └───┘  │                        │
+│  : 4 `-,╲ │        :   │                            │ 1. remove  ʌ  _________│ 
 │  :────────┼────────:   │    1 immunostab = 1 load   │ top cap    │  \_twist_/│
 │  :        │        ;   │                            │_________        \___/  │
 │   \  3    │    2  /    ├─overloads──────────────────┤\┌┐   ┌┐/       ┌┐   ┌┐ │
@@ -162,80 +162,96 @@
 │   not using chrome? just delete this whole section  │ do not touch this end  │
 │                                                     │                        │
 ├─cyberware───────────────────────────────────────────┴────────────────────────┤
-│ ┌─modified Mens/Materia Neurodeck 4000-series DoC──────────────────────────┐ │ 
-│ │                                                                    ┌───┐ │ │
-│ │ manufacturer: Mens/Materia                      cyberware quality: │ 1 │ │ │
-│ │                                                                    └───┘ │ │
-│ │        model: Neurodeck 4000-series                                ┌───┐ │ │
-│ │               Deck-On-A-Chip modified to act      cyberware class: │ B │ │ │
-│ │               as a "Psychadelink" brainsong                        └───┘ │ │      
-│ │               interface
-
-
-│ │                                                                          │ │      
-
-│ │         look: neural implant                                             │ │
+│                                                                              │
+│ ┌─modified Mens/Materia Neurodeck 4000-series DoC──────────────────────────┐ │
+│ │                                     │                                    │ │
+│ │   synopsis:                         │                            ┌───┐   │ │
+│ │   └── allows interfacing with       │   cyberware quality:       │ 1 │   │ │
+│ │       cybersystems without the      │                            └───┘   │ │
+│ │       use of an external            │                                    │ │
+│ │       cyberdeck as an               │                            ┌───┐   │ │ 
+│ │       intermediary                  │   cyberware class:         │ B │   │ │ 
+│ │	                                │                            └───┘   │ │
+│ │                                     │                                    │ │
+│ ├─────────────────────────────────────┴────────────────────────────────────┤ │
+│ ├──────────────────┬───────────────────────────────────────────────────────┤ │
+│ │   manufacturer   │   Mens/Materia                                        │ │
+│ ├──────────────────┼───────────────────────────────────────────────────────┤ │
+│ │   model          │   Neurodeck 4000-series Deck-On-A-Chip modified to    │ │
+│ │                  │   act as a "Psychadelink" brainsong interface         │ │
+│ ├──────────────────┼───────────────────────────────────────────────────────┤ │
+│ │   iconic name    │   ignore this bit lol                                 │ │
+│ ├──────────────────┼───────────────────────────────────────────────────────┤ │
+│ │   look           │   neural implant so n/a                               │ │
+│ │                  │                                                       │ │
+│ ├──────────────────┴──────────────────┬────────────────────────────────────┤ │
+│ │   edges:                            │   flaws:                           │ │
+│ │                                     │                                    │ │
+│ │                                     │                                    │ │
+│ │                                     │                                    │ │
+│ │                                     │                                    │ │
+│ ├─────────────────────────────────────┴────────────────────────────────────┤ │
+│ │                                                                          │ │
+│ │   how did you end up with this cyberware?                                │ │
 │ │                                                                          │ │
 │ │                                                                          │ │
-│ └──────────────────────────────────────────────────────────────────────────┘ │
+│ │                                                                          │ │
+│ │   who chipped you and who paid?                                          │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ │   who does maintenance on this cyberware?                                │ │
+│ │   (yourself/your chipperdoc/a specialist?)                               │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ │   what was the hardest part of the installation process?                 │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ ├─cyberdeck─details────────────────────────────────────────────────────────┤ │
+│ │                                     │                                    │ │
+│ │   synopsis:                         │                            ┌───┐   │ │
+│ │   ├── allows quickhacks             │   cyberdeck quality:       │ 1 │   │ │
+│ │   ├── runs daemons and programs     │                            └───┘   │ │
+│ │   ├── contributes base ToT          │                                    │ │
+│ │   └── provides an air-gapped        │                            ┌───┐   │ │ 
+│ │       interface with foreign        │   cyberdeck load:          │ 1 │   │ │ 
+│ │	  cybersystems                  │                            └───┘   │ │
+│ │                                     │                                    │ │
+│ ├─────────────────────────────────────┴────────────────────────────────────┤ │
+│ ├─ToT─clock─────────────┬─daemons─&─programs───────────────────────────────┤ │
+│ │                       │                                                  │ │
+│ │      .-"``│``"-.      │   $ systemctl list active daemons                │ │
+│ │    .`.  8 │ 1  ,`.    │                                                  │ │
+│ │   /   ".  │  ."   \   │   1:                                       [L]   │ │
+│ │  :  7   ".│."   2  :  │   2:                                       [L]   │ │
+│ │  :────────┼────────:  │   3:                                       [L]   │ │
+│ │  :  6   ."│".   3  ;  │   4:                                       [L]   │ │
+│ │   \   ."  │  ".   /   │   5:                                       [L]   │ │ 
+│ │    `."  5 │ 4  ".'    │   6:                                       [L]   │ │         
+│ │       '-..│..-'       │                                                  │ │ 
+│ │     Time On Target    │   $ program slots      [L] [L] [L] [L] [L] [L]   │ │ 
+│ │                       │                                                  │ │
+│ ├─overclock─────────────┴──────────────────────────────────┬───────────────┤ │
+│ │                                                          │   _.──┬──._   │ │
+│ │                                                          │  "    │    "  │ │
+│ │          upgrades in here                                │ :     │     : │ │
+│ │               idfk who cares about this bit              │ ├─────┼─────┤ │ │
+│ │                                                          │ :     │     : │ │
+│ │                                                          │  .    │    .  │ │
+│ │                                                          │   `"──┴──"`   │ │
+│ │      compromised-fried-glitched-ransomlocked-traced      │    bricked    │ │
+│ └──────────────────────────────────────────────────────────┴───────────────┘ │
 │                                                                              │
-│   edges:                                                                     │
-│                                                                              │
-│                                                                              │
-│   flaws:                                                                     │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-├──────────────────────────────────────────────────────────────────────────────┤   
-                                      
-
-                          
-
-
-
-
-
-├──────────────────────────────────────────────────────────────────────────────┤
-
-why did you end up with this cyberware?
-
-how did you acquire/pay for it?
-
-who chipped you? 
-
-who does maintenance on this cyberware? yourself-your chipperdoc-a specialist
-
-detail about the installation process
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ├──────────────────────────────────────────────────────────────────────────────┤
 │                                      insert cyberware blocks above this line │
 └──────────────────────────────────────────────────────────────────────────────┘
 
+ ═════════════════════════════════ CONNECTIONS ════════════════════════════════
 
-
+┌─whatever─this─is─────────────────────────────────────────────────────────────┐
 ├─adjective─friends/rivals────────────────────────────┬────────────────────────┤
 │                                      friend  rival  │                        │
 │   Nyrix, a professor ghost              [ ]    [ ]  │                        │
@@ -249,68 +265,7 @@ detail about the installation process
 │   Flint, a spirit trafficker            [ ]    [ ]  │                        │
 │                                                     │                        │
 ├─────────────────────────────────────────────────────┴────────────────────────┤
-
-
-
-
-
-├─special item (cyberdeck): Mens/Materia Neurodeck 4000-series DoC─────────────┤
-│                        │                     ┌───┐  │                  ┌───┐ │
-│                        │  spec item quality: │ 1 │  │  spec item load: │ 2 │ │
-│                        │                     └───┘  │                  └───┘ │
-│ ┌──────────────────────────────────────────────────────────────────────────┐ │ 
-│ │ manufacturer: Mens/Materia                                               │ │
-│ │                                                                          │ │      
-│ │        model: Neurodeck 4000-series Deck-On-A-Chip modified to act as a  │ │
-│ │               "Psychadelink" brainsong interface                         │ │      
-│ │                                                                          │ │
-│ │         look: neural implant                                             │ │
-│ │                                                                          │ │
-│ │                                                                          │ │
-│ └──────────────────────────────────────────────────────────────────────────┘ │
-│                                                                              │
-│   edges:                                                                     │
-│                                                                              │
-│                                                                              │
-│   flaws:                                                                     │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-├──────────────────────────────────────────────────────────────────────────────┤  
-
-
-
-
-
-
-│ ┌──────────────────────────────────────────────────────────────────────────┐ │ 
-│ │ manufacturer: Mens/Materia                                               │ │
-│ │                                                                          │ │      
-│ │        model: Neurodeck 4000-series Deck-On-A-Chip modified to act as a  │ │
-│ │               "Psychadelink" brainsong interface                         │ │      
-│ │                                                                          │ │
-│ │         look: neural implant                                             │ │
-│ │                                                                          │ │
-│ │                                                                          │ │
-│ └──────────────────────────────────────────────────────────────────────────┘ │
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+└──────────────────────────────────────────────────────────────────────────────┘
 
 
 
