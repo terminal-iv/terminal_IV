@@ -1,0 +1,306 @@
+┌──────────────────~/terminal_IV/resources/character_file.txt──────────────────┐
+│                                                                              │
+│   This character file is distributed in the hope that it will be useful,     │
+│   but WITHOUT ANY WARRANTY; without even the implied warranty of             │
+│   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. It is yours to hack   │
+│   as you choose.                                                             │
+│                                                                              │
+│   you may find your computer's INSERT function helpful for editing the text  │
+│   fields in this file without messing up the formatting.                     │
+│                                                                              │
+│   terminal_IV is still in development. track issues and contribute playtest  │
+│   feedback @ github.com/aczaplewski/terminal_IV                              │
+│                                                                              │
+│   get in touch: @puns_and_ships@dice.camp, puns_and_ships#8105               │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+ ═════════════════════════════════ CORE STATS ═════════════════════════════════
+ 
+┌─alias───────────────────────────────────────────────┬─playbook───────────────┐
+│                                                     │ NETRUNNER: a hacker    │
+│                                                     │ extraordinaire         │
+├─bio─────────────────────────────────────────────────┼─actions────┬───┬───┬───┤
+│                                                     │            │Skl│Spc│Mst│
+│                                                     ├────────────┴───┴───┴───┤
+│   name:                                             │ insight        xp[n/8] │
+│                                                     ├────────────┬───┬───┬───┤
+│   crew:                                             │ analyse    │   │   │   │
+│                                                     │            ├───┼───┼───┤
+│   background:                                       │ connect    │   │   │   │
+│                                                     │            ├───┼───┼───┤
+│                                                     │ read       │   │   │   │
+│   look:                                             ├────────────┴───┴───┴───┤
+│                                                     │ prowess        xp[n/8] │
+│                                                     ├────────────┬───┬───┬───┤
+│   lure:                                             │ bruteforce │   │   │   │
+│                                                     │            ├───┼───┼───┤
+│                                                     │ execute    │ y │   │   │
+│   address:                                          │            ├───┼───┼───┤
+│                                                     │ ghost      │   │   │   │
+│                                                     ├────────────┴───┴───┴───┤
+│                                                     │ technique      xp[n/8] │
+│   credits: wallet [n/4]; stash [n/40]               ├────────────┬───┬───┬───┤
+│                                                     │ engineer   │   │   │   │
+│   lifestyle (stash÷10, round down): [n/4]           │            ├───┼───┼───┤
+│                                                     │ interface  │ y │ y │   │
+│   playbook xp: [n/10]                               │            ├───┼───┼───┤
+│                                                     │ operate    │ y │   │   │
+│   xp triggers:                                      ├────────────┴───┴───┴───┤
+│   ├── desperate action xp                           │ resolve        xp[n/8] │
+│   └── 1-2 xp each @ session end                     ├────────────┬───┬───┬───┤
+│       ├── address a challenge w x or y              │ burn       │ y │   │   │
+│       │                                             │            ├───┼───┼───┤
+│       ├── express beliefs/drive/background          │ focus      │   │   │   │
+│       └── struggle with vice/trauma                 │            ├───┼───┼───┤
+│                                                     │ influence  │   │   │   │
+├─────────────────────────────────────────────────────┴────────────┴───┴───┴───┤
+├─harm─────────────────────────────────────────┬──────┬─armour─┬─healing─clock─┤
+│   │                                          │ need │  uses  │   _.──┬──._   │
+│ 3 │                                          │ help │  ┌───┐ │  "    │    "  │
+├───┼─────────────────────┬────────────────────┼──────┤ L│   │ │ :     │     : │
+│   │                     │                    │      │  ├───┤ │ ├─────┼─────┤ │
+│ 2 │                     │                    │ -1d  │ H│   │ │ :     │     : │
+├───┼─────────────────────┼────────────────────┼──────┤  ├───┤ │  .    │    .  │
+│   │                     │                    │ less │ S│   │ │   `"──┴──"`   │
+│ 1 │                     │                    │effect│  └───┘ │   get better  │
+├───┴─────────────────────┴────────────────────┴──────┴────────┴───────────────┤
+├─stress───────────────────────────────────────────────────────┬─trauma─clock──┤
+│   0     1     2     3     4     5     6     7     8     9    │   _.──┬──._   │
+│   │=====│=====│=====│>    │     │     │     │     │     │   ─┼> "    │    "  │
+├─vice/purveyor────────────────────────────────────────────────┤ :     │     : │
+│                                                              │ ├─────┼─────┤ │
+│    faith—gambling—luxury—obligation—pleasure—stupor—weird    │ :     │     : │
+├─trauma───────────────────────────────────────────────────────┤  .    │    .  │
+│                                                             <┼─  `"──┴──"`   │
+│ cold—haunted—obsessed—paranoid-reckless—soft—unstable—vicious│ time runs out │
+└──────────────────────────────────────────────────────────────┴───────────────┘
+
+ ════════════════════════════════ LOAD & ITEMS ════════════════════════════════
+ 
+┌─load─remaining───────────────────────────────────────────────────────────────┐
+│   9     8     7     6     5     4     3     2     1     0    b1    b2    b3  │
+│   │     │     │    [│=====│=====│=====│=====│=====│>    │     │     │     │  │
+│   │                 │     │           │                 │                    │
+│   encumbered        heavy normal      light             bonus                │
+├─load/special─items──────────────────────────────────┬─load/generic─items─────┤
+│                                                     │                        │
+│   key:  ( ) = 0 load; [ ] = 1; [ ]:[ ] = multiple   │ blade or two       [ ] │
+│                                                     │                        │
+│   item                                        [ ]   │ handgun [ ]   pair [ ] │
+│                                                     │                        │
+│   item                                        ( )   │ large weapon   [ ]:[ ] │
+│                                                     │                        │
+│   item                                        ( )   │ unusual weapon     [ ] │
+│                                                     │                        │
+│                                                     │ armour         [ ]:[ ] │
+│                                                     │ │                      │
+│                                                     │ └─heavy    [ ]:[ ]:[ ] │
+│                                                     │                        │
+│                                                     │ burglary gear      [ ] │
+│                                                     │                        │
+│                                                     │ climbing gear  [ ]:[ ] │
+│                                                     │                        │
+│                                                     │ arcane implements  [ ] │
+│                                                     │                        │
+│                                                     │ documents          [ ] │
+│                                                     │                        │
+│                                                     │ subterfuge supplies[ ] │
+│                                                     │                        │
+│                                                     │ demo. tools    [ ]:[ ] │
+│                                                     │                        │
+│   rigging                                     ( )   │ tinkering tools    [ ] │
+│   │                                                 │                        │
+│   └── type: e.g. assassins'         uses: ( ) ( )   │ lantern            [ ] │
+│                                                     │                        │
+├─special─items───────────────────────────────────────┴────────────────────────┤
+│                                                                              │
+└───────────────────────────────────────────insert─item─blcoks─above─this─line─┘
+
+ ══════════════════════════════════ CYBERWARE ═════════════════════════════════
+ 
+┌─chrome─clock───────────┬─load/immunostabs───────────┬─auto─injectors─────────┐
+│                        │                            │                        │
+│      .-"``│``"-.       │   no. immunostabs   ┌───┐  │   immune-suppressant   │
+│    .` " 6 │     `.     │   since last        │ 0 │  │  combat auto-injector  │
+│   /".5 "  │    1  \    │   maintenance:      └───┘  │                        │
+│  : 4 `-," │        :   │                            │ 1. remove  ʌ  _________│
+│  :────────┼────────:   │    1 immunostab = 1 load   │ top cap    │  \_twist_/│
+│  :        │        ;   │                            │_________        \___/  │
+│   \  3    │    2  /    ├─overloads──────────────────┤\┌┐   ┌┐/       ┌┐   ┌┐ │
+│    `.     │     .'     │                            │ │\_█_/│        │__---│ │
+│       '-..│..-'        │   no. overloads     ┌───┐  │ │══█══┼─spring─┼__---│ │
+│        overload      ──┼>  since last        │ 0 │  │ │═┌▀┐═│        │__---│ │
+│                        │   maintenance:      └───┘  │ │═│O│═│        │__---│ │
+│  tick on class A Cyber │                            │ │═│O│═│        │__│--│ │
+│   Die 1-3; permafill   │  when chrome clock fills,  │ │═│O├─┼─plunger│__│--│ │
+│  per class A-B chrome  │   drop out of this scene   │ │═│O│═│        │__│--│ │
+│                        │                            │ ╞═╧═╧═╡        │__│--│ │
+├─cyber─contacts─────────┴────────────────────────────┤ ╞═════╡        │__│--│ │
+│                                                     │ │    ─┼─vial   │__│--│ │
+│   who's your regular chipperdoc?                    │ │     │        │__v--│ │
+│   │                                                 │ │     │ last   │__---│ │
+│   │                                                 │ │     │ resort │__█--│ │
+│   │                                                 │ │     │ only:  │__█--│ │
+│   ├── from where do they operate their clinic?      │ │     │ use    │_┌▀┐-│ │
+│   │                                                 │ ├─_ _─┤ when   │_│O│-│ │
+│   │                                                 │ ├── ──┤ on     │_│O│-│ │
+│   │                                                 │ │┌─│─┐│ brink  │_│O│-│ │
+│   └── what's your relationship with them like?      │ ││ │ ││ of     │_│O│-│ │
+│                                                     │ ││ │ ││ over-  ╞═╧═╧═╡ │
+│                                                     │ │  │  │ load   ╞═════╡ │
+│                                                     │ │  │  │        ├─_ _─┤ │
+│   where do you get your immunostabs?                │ │  │  │        ├┬─│─┬┤ │
+│                                                     │ │  ├──┼─needle─┼┼─┤ ││ │
+│                                                     │ │  │  │        ││ │ ││ │
+│                                                     │  \   /          \ │ /  │
+│   how has your cyberware put you in debt?           │  │ │ │          │ │ │  │
+│                                                     │    v              │    │
+│                                                     │ 2. push firmly    │    │
+│                                                     │ against outside   │    │
+│                                                     │ thigh (10 seconds)     │
+│   not using chrome? just delete this whole section  │ do not touch this end  │
+│                                                     │                        │
+├─cyberware───────────────────────────────────────────┴────────────────────────┤
+│                                                                              │
+└──────────────────────────────────────insert─cyberware─blocks─above─this─line─┘
+
+ ════════════════════════════════ MISCELLANEOUS ═══════════════════════════════
+
+┌─adjective─friends/rivals────────────────────────────┬────────────────────────┐
+│                                      friend  rival  │                        │
+│   Nyrix, a professor ghost              [ ]    [ ]  │                        │
+│                                                     │   this space? idk      │
+│   Scurlock, a vampire                   [ ]    [ ]  │                        │
+│                                                     │                        │
+│   Setarra, a demon                      [ ]    [ ]  │                        │
+│                                                     │                        │
+│   Quellyn, a witch                      [ ]    [ ]  │                        │
+│                                                     │                        │
+│   Flint, a spirit trafficker            [ ]    [ ]  │                        │
+│                                                     │                        │
+├─notes───────────────────────────────────────────────┴────────────────────────┤
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+
+cyberware block
+│ ┌─modified Mens/Materia Neurodeck 4000-series DoC──────────────────────────┐ │
+│ ├──────────────────┬───────────────────────────────────────────────────────┤ │
+│ │   manufacturer   │   Mens/Materia                                        │ │
+│ ├──────────────────┼───────────────────────────────────────────────────────┤ │
+│ │   model          │   Neurodeck 4000-series Deck-On-A-Chip modified to    │ │
+│ │                  │   act as a "Psychadelink" brainsong interface         │ │
+│ ├──────────────────┼───────────────────────────────────────────────────────┤ │
+│ │   iconic name    │   ignore this bit lol                                 │ │
+│ ├──────────────────┼───────────────────────────────────────────────────────┤ │
+│ │   look           │   neural implant so n/a                               │ │
+│ │                  │                                                       │ │
+│ ├──────────────────┴──────────────────┬────────────────────────────────────┤ │
+│ │   edges:                            │   flaws:                           │ │
+│ │                                     │                                    │ │
+│ │                                     │                                    │ │
+│ │                                     │                                    │ │
+│ │                                     │                                    │ │
+│ ├─────────────────────────────────────┴────────────────────────────────────┤ │
+│ ├─cyberware─details───────────────────┬────────────────────────────────────┤ │
+│ │                                     │                                    │ │
+│ │   synopsis:                         │                            ┌───┐   │ │
+│ │   └── allows interfacing with       │   cyberware quality:       │ 1 │   │ │
+│ │       cybersystems without the      │                            └───┘   │ │
+│ │       use of an external            │                                    │ │
+│ │       cyberdeck as an               │                            ┌───┐   │ │
+│ │       intermediary                  │   cyberware class:         │ B │   │ │
+│ │	                                │                            └───┘   │ │
+│ │                                     │                                    │ │
+│ ├─────────────────────────────────────┴────────────────────────────────────┤ │
+│ │                                                                          │ │
+│ │   how did you end up with this cyberware?                                │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ │   who chipped you and who paid?                                          │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ │   who does maintenance on this cyberware?                                │ │
+│ │   (yourself/your chipperdoc/a specialist?)                               │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ │   what was the hardest part of the installation process?                 │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ ├──────────────────────────────────────────────────────────────────────────┤ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+
+
+
+
+
+special item: cyberdeck block
+│ ┌─modified Mens/Materia Neurodeck 4000-series DoC──────────────────────────┐ │
+│ ├──────────────────┬───────────────────────────────────────────────────────┤ │
+│ │   manufacturer   │   Mens/Materia                                        │ │
+│ ├──────────────────┼───────────────────────────────────────────────────────┤ │
+│ │   model          │   Neurodeck 4000-series Deck-On-A-Chip modified to    │ │
+│ │                  │   act as a "Psychadelink" brainsong interface         │ │
+│ ├──────────────────┼───────────────────────────────────────────────────────┤ │
+│ │   iconic name    │   ignore this bit lol                                 │ │
+│ ├──────────────────┼───────────────────────────────────────────────────────┤ │
+│ │   look           │   neural implant so n/a                               │ │
+│ │                  │                                                       │ │
+│ ├──────────────────┴──────────────────┬────────────────────────────────────┤ │
+│ │   edges:                            │   flaws:                           │ │
+│ │                                     │                                    │ │
+│ │                                     │                                    │ │
+│ │                                     │                                    │ │
+│ │                                     │                                    │ │
+│ ├─────────────────────────────────────┴────────────────────────────────────┤ │
+│ ├─cyberdeck─details───────────────────┬────────────────────────────────────┤ │
+│ │                                     │                                    │ │
+│ │   synopsis:                         │                            ┌───┐   │ │
+│ │   ├── allows quickhacks             │   cyberdeck quality:       │ 1 │   │ │
+│ │   ├── runs daemons and programs     │                            └───┘   │ │
+│ │   ├── contributes base ToT          │                                    │ │
+│ │   └── provides an air-gapped        │                            ┌───┐   │ │
+│ │       interface with foreign        │   cyberdeck load:          │ 1 │   │ │
+│ │	  cybersystems                  │                            └───┘   │ │
+│ │                                     │                                    │ │
+│ ├─────────────────────────────────────┴────────────────────────────────────┤ │
+│ ├─ToT─clock─────────────┬─daemons─&─programs───────────────────────────────┤ │
+│ │                       │                                                  │ │
+│ │      .-"``│``"-.      │   $ systemctl list active daemons                │ │
+│ │    .`.  8 │ 1  ,`.    │                                                  │ │
+│ │   /   ".  │  ."   \   │   1:                                       [L]   │ │
+│ │  :  7   ".│."   2  :  │   2:                                       [L]   │ │
+│ │  :────────┼────────:  │   3:                                       [L]   │ │
+│ │  :  6   ."│".   3  ;  │   4:                                       [L]   │ │
+│ │   \   ."  │  ".   /   │   5:                                       [L]   │ │
+│ │    `."  5 │ 4  ".'    │   6:                                       [L]   │ │
+│ │       '-..│..-'       │                                                  │ │
+│ │     Time On Target    │   $ program slots      [L] [L] [L] [L] [L] [L]   │ │
+│ │                       │                                                  │ │
+│ ├─overclock─────────────┴──────────────────────────────────┬───────────────┤ │
+│ │                                                          │   _.──┬──._   │ │
+│ │                                                          │  "    │    "  │ │
+│ │          upgrades in here                                │ :     │     : │ │
+│ │               idfk who cares about this bit              │ ├─────┼─────┤ │ │
+│ │                                                          │ :     │     : │ │
+│ │                                                          │  .    │    .  │ │
+│ │                                                          │   `"──┴──"`   │ │
+│ │      compromised-fried-glitched-ransomlocked-traced      │    bricked    │ │
+│ ├──────────────────────────────────────────────────────────┴───────────────┤ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
