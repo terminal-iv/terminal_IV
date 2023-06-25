@@ -20,9 +20,9 @@
 ┌─alias───────────────────────────────────────────────┬─playbook───────────────┐
 │                                                     │ NETRUNNER: a hacker    │
 │                                                     │ extraordinaire         │
-├─bio─────────────────────────────────────────────────┼─actions────┬───┬───┬───┤   
-│                                                     │            │Skl│Spc│Mst│ 
-│                                                     ├────────────┴───┴───┴───┤ 
+├─bio─────────────────────────────────────────────────┼─actions────┬───┬───┬───┤
+│                                                     │            │Skl│Spc│Mst│
+│                                                     ├────────────┴───┴───┴───┤
 │   name:                                             │ insight        xp[n/8] │
 │                                                     ├────────────┬───┬───┬───┤
 │   crew:                                             │ analyse    │   │   │   │
@@ -37,16 +37,16 @@
 │                                                     │            ├───┼───┼───┤
 │                                                     │ execute    │ y │   │   │
 │   address:                                          │            ├───┼───┼───┤
-│                                                     │ ghost      │   │   │   │  
+│                                                     │ ghost      │   │   │   │
 │                                                     ├────────────┴───┴───┴───┤
-│                                                     │ technique      xp[n/8] │ 
+│                                                     │ technique      xp[n/8] │
 │   credits: wallet [n/4]; stash [n/40]               ├────────────┬───┬───┬───┤
-│                                                     │ engineer   │   │   │   │   
-│   lifestyle (stash÷10, round down): [n/4]           │            ├───┼───┼───┤    
+│                                                     │ engineer   │   │   │   │
+│   lifestyle (stash÷10, round down): [n/4]           │            ├───┼───┼───┤
 │                                                     │ interface  │ y │ y │   │
-│   playbook xp: [n/10]                               │            ├───┼───┼───┤   
-│                                                     │ operate    │ y │   │   │   
-│   xp triggers:                                      ├────────────┴───┴───┴───┤ 
+│   playbook xp: [n/10]                               │            ├───┼───┼───┤
+│                                                     │ operate    │ y │   │   │
+│   xp triggers:                                      ├────────────┴───┴───┴───┤
 │   ├── desperate action xp                           │ resolve        xp[n/8] │
 │   └── 1-2 xp each @ session end                     ├────────────┬───┬───┬───┤
 │       ├── address a challenge w x or y              │ burn       │ y │   │   │
@@ -120,35 +120,35 @@
  ══════════════════════════════════ CYBERWARE ═════════════════════════════════
  
 ┌─chrome─clock───────────┬─load/immunostabs───────────┬─auto─injectors─────────┐
-│                        │                            │                        │      
+│                        │                            │                        │
 │      .-"``│``"-.       │   no. immunostabs   ┌───┐  │   immune-suppressant   │
-│    .` ╲ 6 │     `.     │   since last        │ 0 │  │  combat auto-injector  │
-│   /".5 ╲  │    1  \    │   maintenance:      └───┘  │                        │
-│  : 4 `-,╲ │        :   │                            │ 1. remove  ʌ  _________│ 
+│    .` " 6 │     `.     │   since last        │ 0 │  │  combat auto-injector  │
+│   /".5 "  │    1  \    │   maintenance:      └───┘  │                        │
+│  : 4 `-," │        :   │                            │ 1. remove  ʌ  _________│
 │  :────────┼────────:   │    1 immunostab = 1 load   │ top cap    │  \_twist_/│
 │  :        │        ;   │                            │_________        \___/  │
 │   \  3    │    2  /    ├─overloads──────────────────┤\┌┐   ┌┐/       ┌┐   ┌┐ │
-│    `.     │     .'     │                            │ │\_█_/│        │__---│ │ 
+│    `.     │     .'     │                            │ │\_█_/│        │__---│ │
 │       '-..│..-'        │   no. overloads     ┌───┐  │ │══█══┼─spring─┼__---│ │
 │        overload      ──┼>  since last        │ 0 │  │ │═┌▀┐═│        │__---│ │
-│                        │   maintenance:      └───┘  │ │═│█│═│        │__---│ │
-│  tick on class A Cyber │                            │ │═│█│═│        │__│--│ │
-│   Die 1-3; permafill   │  when chrome clock fills,  │ │═│█│═│        │__│--│ │
-│  per class A-B chrome  │   drop out of this scene   │ │═│█│═│        │__│--│ │
-│                        │                            │ ├▅▅█▅▅┼─plunger│__│--│ │
-├─cyber─contacts─────────┴────────────────────────────┤ │     │        │__│--│ │ 
-│                                                     │ │    ─┼─vial   │__│--│ │ 
-│   who's your regular chipperdoc?                    │ │     │        │__v--│ │ 
-│   │                                                 │ │     │ last   │__---│ │ 
-│   │                                                 │ │     │ resort │__█--│ │ 
-│   │                                                 │ │     │ only:  │__█--│ │ 
+│                        │   maintenance:      └───┘  │ │═│O│═│        │__---│ │
+│  tick on class A Cyber │                            │ │═│O│═│        │__│--│ │
+│   Die 1-3; permafill   │  when chrome clock fills,  │ │═│O├─┼─plunger│__│--│ │
+│  per class A-B chrome  │   drop out of this scene   │ │═│O│═│        │__│--│ │
+│                        │                            │ ╞═╧═╧═╡        │__│--│ │
+├─cyber─contacts─────────┴────────────────────────────┤ ╞═════╡        │__│--│ │
+│                                                     │ │    ─┼─vial   │__│--│ │
+│   who's your regular chipperdoc?                    │ │     │        │__v--│ │
+│   │                                                 │ │     │ last   │__---│ │
+│   │                                                 │ │     │ resort │__█--│ │
+│   │                                                 │ │     │ only:  │__█--│ │
 │   ├── from where do they operate their clinic?      │ │     │ use    │_┌▀┐-│ │
-│   │                                                 │ ├─_ _─┤ when   │_│█│-│ │
-│   │                                                 │ ├── ──┤ on     │_│█│-│ │
-│   │                                                 │ │┌─│─┐│ brink  │_│█│-│ │
-│   └── what's your relationship with them like?      │ ││ │ ││ of     │_│█│-│ │
-│                                                     │ ││ │ ││ over-  ├▅▅█▅▅┤ │
-│                                                     │ │  │  │ load   │     │ │
+│   │                                                 │ ├─_ _─┤ when   │_│O│-│ │
+│   │                                                 │ ├── ──┤ on     │_│O│-│ │
+│   │                                                 │ │┌─│─┐│ brink  │_│O│-│ │
+│   └── what's your relationship with them like?      │ ││ │ ││ of     │_│O│-│ │
+│                                                     │ ││ │ ││ over-  ╞═╧═╧═╡ │
+│                                                     │ │  │  │ load   ╞═════╡ │
 │                                                     │ │  │  │        ├─_ _─┤ │
 │   where do you get your immunostabs?                │ │  │  │        ├┬─│─┬┤ │
 │                                                     │ │  ├──┼─needle─┼┼─┤ ││ │
@@ -164,16 +164,6 @@
 ├─cyberware───────────────────────────────────────────┴────────────────────────┤
 │                                                                              │
 │ ┌─modified Mens/Materia Neurodeck 4000-series DoC──────────────────────────┐ │
-│ │                                     │                                    │ │
-│ │   synopsis:                         │                            ┌───┐   │ │
-│ │   └── allows interfacing with       │   cyberware quality:       │ 1 │   │ │
-│ │       cybersystems without the      │                            └───┘   │ │
-│ │       use of an external            │                                    │ │
-│ │       cyberdeck as an               │                            ┌───┐   │ │ 
-│ │       intermediary                  │   cyberware class:         │ B │   │ │ 
-│ │	                                │                            └───┘   │ │
-│ │                                     │                                    │ │
-│ ├─────────────────────────────────────┴────────────────────────────────────┤ │
 │ ├──────────────────┬───────────────────────────────────────────────────────┤ │
 │ │   manufacturer   │   Mens/Materia                                        │ │
 │ ├──────────────────┼───────────────────────────────────────────────────────┤ │
@@ -189,6 +179,17 @@
 │ │                                     │                                    │ │
 │ │                                     │                                    │ │
 │ │                                     │                                    │ │
+│ │                                     │                                    │ │
+│ ├─────────────────────────────────────┴────────────────────────────────────┤ │
+│ ├─cyberware─details───────────────────┬────────────────────────────────────┤ │
+│ │                                     │                                    │ │
+│ │   synopsis:                         │                            ┌───┐   │ │
+│ │   └── allows interfacing with       │   cyberware quality:       │ 1 │   │ │
+│ │       cybersystems without the      │                            └───┘   │ │
+│ │       use of an external            │                                    │ │
+│ │       cyberdeck as an               │                            ┌───┐   │ │
+│ │       intermediary                  │   cyberware class:         │ B │   │ │
+│ │	                                │                            └───┘   │ │
 │ │                                     │                                    │ │
 │ ├─────────────────────────────────────┴────────────────────────────────────┤ │
 │ │                                                                          │ │
@@ -210,14 +211,15 @@
 │ │                                                                          │ │
 │ │                                                                          │ │
 │ │                                                                          │ │
-│ ├─cyberdeck─details────────────────────────────────────────────────────────┤ │
+│ ├──────────────────────────────────────────────────────────────────────────┤ │
+│ ├─cyberdeck─details───────────────────┬────────────────────────────────────┤ │
 │ │                                     │                                    │ │
 │ │   synopsis:                         │                            ┌───┐   │ │
 │ │   ├── allows quickhacks             │   cyberdeck quality:       │ 1 │   │ │
 │ │   ├── runs daemons and programs     │                            └───┘   │ │
 │ │   ├── contributes base ToT          │                                    │ │
-│ │   └── provides an air-gapped        │                            ┌───┐   │ │ 
-│ │       interface with foreign        │   cyberdeck load:          │ 1 │   │ │ 
+│ │   └── provides an air-gapped        │                            ┌───┐   │ │
+│ │       interface with foreign        │   cyberdeck load:          │ 1 │   │ │
 │ │	  cybersystems                  │                            └───┘   │ │
 │ │                                     │                                    │ │
 │ ├─────────────────────────────────────┴────────────────────────────────────┤ │
@@ -229,10 +231,10 @@
 │ │  :  7   ".│."   2  :  │   2:                                       [L]   │ │
 │ │  :────────┼────────:  │   3:                                       [L]   │ │
 │ │  :  6   ."│".   3  ;  │   4:                                       [L]   │ │
-│ │   \   ."  │  ".   /   │   5:                                       [L]   │ │ 
-│ │    `."  5 │ 4  ".'    │   6:                                       [L]   │ │         
-│ │       '-..│..-'       │                                                  │ │ 
-│ │     Time On Target    │   $ program slots      [L] [L] [L] [L] [L] [L]   │ │ 
+│ │   \   ."  │  ".   /   │   5:                                       [L]   │ │
+│ │    `."  5 │ 4  ".'    │   6:                                       [L]   │ │
+│ │       '-..│..-'       │                                                  │ │
+│ │     Time On Target    │   $ program slots      [L] [L] [L] [L] [L] [L]   │ │
 │ │                       │                                                  │ │
 │ ├─overclock─────────────┴──────────────────────────────────┬───────────────┤ │
 │ │                                                          │   _.──┬──._   │ │
