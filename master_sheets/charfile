@@ -5,15 +5,48 @@
 │   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. It is yours to hack   │
 │   as you choose.                                                             │
 │                                                                              │
-│   you may find your computer's INSERT function helpful for editing the text  │
-│   fields in this file without messing up the formatting.                     │
-│                                                                              │
 │   terminal_IV is still in development. track issues and contribute playtest  │
 │   feedback @ github.com/terminal-iv/terminal_IV                              │
 │                                                                              │
 │   get in touch: @puns_and_ships@dice.camp, discord puns_and_ships            │
 │                                                                              │
 └──────────────────────────────────────────────────────────────────────────────┘
+
+    using this file
+
+    this character file comprises 4 "sheets" which each track information
+    about different parts of your character. the core sheet is required, but
+    you can delete the other three if you don't need them.
+
+    each "sheet" has space to paste in modular "blocks" which provide a
+    means of customising your character's background, items, cyberware and 
+    abilities. you can recognise a block by its inset line borders.
+
+    choose example blocks to paste in as-is from the rulebook, or
+    follow the frameworks provided to write, test and balance your own.
+
+    $ tree 
+    .
+    ├── core_sheet                 the core sheet contains your character's 
+    │   └── background_block       key info, tailored for each playbook.
+    │
+    ├── load_&_items_sheet         the load & items sheet tracks what you've 
+    │   └── special_item_block     got access to/on your person at any time.
+    │       ├── cyberdeck_block
+    │       ├── drone_block        in contrast to generic items which you  
+    │       ├── gear_block         have a steady supply of, item blocks
+    │       ├── vehicle_block      track individual items which have stories 
+    │       └── weapon_block       we care about. 
+    │
+    ├── cyberware_sheet            the cyberware sheet tracks the status and
+    │   └── cyberware_block        capabilities of your installed cyberware.
+    │
+    └── special_abilities_sheet    the special ability sheet tracks the  
+        └── special_ability_block  abilities you've unlocked by earning XP. 
+
+
+    you may find your computer's INSERT function helpful for editing the text
+    fields in this file without messing up the formatting.         
 
  ════════════════════════════════════ CORE ════════════════════════════════════
  
@@ -35,7 +68,7 @@
 │                                                     ├────────────┬───┬───┬───┤
 │   lure:                                             │ bruteforce │   │   │   │
 │                                                     │            ├───┼───┼───┤
-│                                                     │ execute    │ y │   │   │
+│                                                     │ execute    │   │   │   │
 │   address:                                          │            ├───┼───┼───┤
 │                                                     │ ghost      │   │   │   │
 │                                                     ├────────────┴───┴───┴───┤
@@ -43,13 +76,13 @@
 │   credits: wallet [n/4]; stash [n/40]               ├────────────┬───┬───┬───┤
 │                                                     │ engineer   │   │   │   │
 │   lifestyle (stash÷10, round down): [n/4]           │            ├───┼───┼───┤
-│                                                     │ interface  │ y │ y │   │
+│                                                     │ interface  │   │   │   │
 │   playbook xp: [n/10]                               │            ├───┼───┼───┤
-│                                                     │ operate    │ y │   │   │
+│                                                     │ operate    │   │   │   │
 │   xp triggers:                                      ├────────────┴───┴───┴───┤
 │   ├── desperate action xp                           │ resolve        xp[n/8] │
 │   └── 1-2 xp each @ session end                     ├────────────┬───┬───┬───┤
-│       ├── address a challenge w x or y              │ burn       │ y │   │   │
+│       ├── address a challenge w x or y              │ burn       │   │   │   │
 │       │                                             │            ├───┼───┼───┤
 │       ├── express beliefs/drive/background          │ focus      │   │   │   │
 │       └── struggle with vice/trauma                 │            ├───┼───┼───┤
@@ -75,22 +108,24 @@
 │                                                             <┼─  `"──┴──"`   │
 │ cold—haunted—obsessed—paranoid-reckless—soft—unstable—vicious│ time runs out │
 ├──────────────────────────────────────────────────────────────┴───────────────┤
-├─adjective─friends/rivals────────────────────────────┬────────────────────────┤
-│                                      friend  rival  │                        │
-│   Nyrix, a professor ghost              [ ]    [ ]  │                        │
-│                                                     │   this space? idk      │
-│   Scurlock, a vampire                   [ ]    [ ]  │                        │
-│                                                     │                        │
-│   Setarra, a demon                      [ ]    [ ]  │                        │
-│                                                     │                        │
-│   Quellyn, a witch                      [ ]    [ ]  │                        │
-│                                                     │                        │
-│   Flint, a spirit trafficker            [ ]    [ ]  │                        │
-│                                                     │                        │
-├─notes───────────────────────────────────────────────┴────────────────────────┤
+├─adjective─friends/rivals─────────────────────────────────────────────────────┤
 │                                                                              │
+│       Name, description:           Details:                                  │
 │                                                                              │
+│   [F] Nyrix, a professor ghost                                               │
 │                                                                              │
+│   [R] Scurlock, a vampire                                                    │
+│                                                                              │
+│   [ ] Setarra, a demon                                                       │
+│                                                                              │
+│   [ ] Quellyn, a witch                                                       │
+│                                                                              │
+│   [ ] Flint, a spirit trafficker                                             │
+│                                                                              │
+├─notes────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│   make room to paste background                                              │
+│   add lure xp                                                                │
 │                                                                              │
 │                                                                              │
 │                                                                              │
@@ -103,7 +138,7 @@
  
 ┌─load─remaining───────────────────────────────────────────────────────────────┐
 │   9     8     7     6     5     4     3     2     1     0    b1    b2    b3  │
-│   │     │     │    [│=====│=====│=====│=====│=====│>    │     │     │     │  │
+│   │     │     │     │    [│=====│=====│>    │     │     │     │     │     │  │
 │   │                 │     │           │                 │                    │
 │   encumbered        heavy normal      light             bonus                │
 ├─load/special─items──────────────────────────────────┬─load/generic─items─────┤
