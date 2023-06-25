@@ -9,13 +9,13 @@
 │   fields in this file without messing up the formatting.                     │
 │                                                                              │
 │   terminal_IV is still in development. track issues and contribute playtest  │
-│   feedback @ github.com/aczaplewski/terminal_IV                              │
+│   feedback @ github.com/terminal-iv/terminal_IV                              │
 │                                                                              │
-│   get in touch: @puns_and_ships@dice.camp, puns_and_ships#8105               │
+│   get in touch: @puns_and_ships@dice.camp, discord puns_and_ships            │
 │                                                                              │
 └──────────────────────────────────────────────────────────────────────────────┘
 
- ═════════════════════════════════ CORE STATS ═════════════════════════════════
+ ════════════════════════════════════ CORE ════════════════════════════════════
  
 ┌─alias───────────────────────────────────────────────┬─playbook───────────────┐
 │                                                     │ NETRUNNER: a hacker    │
@@ -74,7 +74,30 @@
 ├─trauma───────────────────────────────────────────────────────┤  .    │    .  │
 │                                                             <┼─  `"──┴──"`   │
 │ cold—haunted—obsessed—paranoid-reckless—soft—unstable—vicious│ time runs out │
-└──────────────────────────────────────────────────────────────┴───────────────┘
+├──────────────────────────────────────────────────────────────┴───────────────┤
+├─adjective─friends/rivals────────────────────────────┬────────────────────────┤
+│                                      friend  rival  │                        │
+│   Nyrix, a professor ghost              [ ]    [ ]  │                        │
+│                                                     │   this space? idk      │
+│   Scurlock, a vampire                   [ ]    [ ]  │                        │
+│                                                     │                        │
+│   Setarra, a demon                      [ ]    [ ]  │                        │
+│                                                     │                        │
+│   Quellyn, a witch                      [ ]    [ ]  │                        │
+│                                                     │                        │
+│   Flint, a spirit trafficker            [ ]    [ ]  │                        │
+│                                                     │                        │
+├─notes───────────────────────────────────────────────┴────────────────────────┤
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
 
  ════════════════════════════════ LOAD & ITEMS ════════════════════════════════
  
@@ -107,7 +130,7 @@
 │                                                     │                        │
 │                                                     │ subterfuge supplies[ ] │
 │                                                     │                        │
-│                                                     │ demo. tools    [ ]:[ ] │
+│   explain supply items like immunostabs here!       │ demo. tools    [ ]:[ ] │
 │                                                     │                        │
 │   rigging                                     ( )   │ tinkering tools    [ ] │
 │   │                                                 │                        │
@@ -179,28 +202,5 @@
 │                                                                              │
 └──────────────────────────────────────────────────────────────────────────────┘
 
- ════════════════════════════════ MISCELLANEOUS ═══════════════════════════════
 
-┌─adjective─friends/rivals────────────────────────────┬────────────────────────┐
-│                                      friend  rival  │                        │
-│   Nyrix, a professor ghost              [ ]    [ ]  │                        │
-│                                                     │   this space? idk      │
-│   Scurlock, a vampire                   [ ]    [ ]  │                        │
-│                                                     │                        │
-│   Setarra, a demon                      [ ]    [ ]  │                        │
-│                                                     │                        │
-│   Quellyn, a witch                      [ ]    [ ]  │                        │
-│                                                     │                        │
-│   Flint, a spirit trafficker            [ ]    [ ]  │                        │
-│                                                     │                        │
-├─notes───────────────────────────────────────────────┴────────────────────────┤
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
+
