@@ -1,6 +1,99 @@
-special item: cyberdeck block
+asset: cyberdeck block
 
-│ ┌─item unique identifier goes here─────────────────────────────────────────┐ │
+   asset: cyberdeck. proceed with configuration? [y/N]
+
+   EXPLAIN WHAT CYBERDECKS DO HERE LOL
+   ToT, Daemons, Programs, copy the synopsis
+
+   MAKING A CYBERDECK
+   
+   Option 1: Fast-track. Determine the deck's Quality (step 1) and skip all
+   the subsequent steps. Use the default config for a deck of that Quality,
+   which should be located at /etc/cyberdeck/config. 
+   
+   Option 2: Custom-build. Follow the instructions below in full to build a
+   deck to your specifications. 
+
+
+   1. QUALITY - determine initial Decking Out Points pool
+
+   DOPs are the currency you spend to "Deck Out" an asset. (They're called
+   that because the cyberdeck was the first asset we designed!) 
+
+      Quality                                                Initial DOPs
+      0 - poor..........................................................6
+      1 - adequate......................................................7
+      2 - good..........................................................8
+      3 - excellent.....................................................9
+      4 - superior.....................................................10
+      5 - impeccable...................................................11
+      6 - legendary....................................................12
+
+   If your playbook or background give you access to Fine cyberdecks, get +1
+   DOP (this bonus stacks, e.g. +1 from both playbook and background = +2).
+
+   You can tally your current DOP total as you go along here: --> 
+
+
+   2. LOAD - choose a deck form factor
+
+   Larger decks get more DOPs to allocate since they outperform smaller
+   decks at a given Quality/price point. This is because:
+
+   - larger decks can fit more hardware 
+   - miniaturising components to fit into a smaller form factor is expensive
+   - cooling a large deck is easier, avoiding thermal throttling
+
+   The tradeoff of the larger form-factor is that heavy battle decks are
+   harder to conceal and lug around.
+                                                                         
+      Form Factor            Load          ΔDOPs              Edges/Flaws
+      deck-on-a-chip...........0............-2................--implanted
+      light....................1............-2...................--covert
+      normal...................2.............0........................N/A
+      heavy (battle deck)......3............+2.....--heavy, --conspicuous
+
+   You can only make use of an --implanted battle deck if you're building
+   this deck to get it chipped as a piece of cyberware (see chip(2))
+
+   3. MANUFACTURER - get edges/flaws to reflect corporate reputations
+
+   
+
+   
+
+
+
+
+   4. TWEAKS
+
+
+
+
+
+
+
+   5. SPEND DOP POOL
+
+
+
+
+
+
+
+   6. LOOK
+
+
+
+
+
+   7. NAMES
+
+
+   to attach this sheet to a cyberware block, cut above the "synopsis" line
+   
+
+│ ┌─asset unique identifier goes here────────────────────────────────────────┐ │
 │ ├──────────────────┬───────────────────────────────────────────────────────┤ │
 │ │   manufacturer   │                                                       │ │
 │ ├──────────────────┼───────────────────────────────────────────────────────┤ │
@@ -18,66 +111,31 @@ special item: cyberdeck block
 │ │                                     │                                    │ │
 │ │                                     │                                    │ │
 │ ├─────────────────────────────────────┴────────────────────────────────────┤ │
-
-
-
-
-
-
-
-
-│ ├─cyberdeck───────────────────────────┬────────────────────────────────────┤ │
-│ │                                     │                                    │ │
-│ │   synopsis:                         │                            ┌───┐   │ │
-│ │   ├── allows quickhacks             │   cyberdeck quality:       │   │   │ │
-│ │   ├── runs daemons and programs     │                            └───┘   │ │
-│ │   ├── contributes base ToT          │                                    │ │
-│ │   └── provides an air-gapped        │                            ┌───┐   │ │
-│ │       interface with foreign        │   cyberdeck load:          │   │   │ │
-│ │	  cybersystems                  │                            └───┘   │ │
-│ │                                     │                                    │ │
-│ ├─ToT─clock─────────────┬─daemons─&─programs───────────────────────────────┤ │
-│ │                       │                                                  │ │
-│ │      .-"``│``"-.      │   $ systemctl list active daemons                │ │
-│ │    .`.  8 │ 1  ,`.    │                                                  │ │
-│ │   /   ".  │  ."   \   │   1:                                       [L]   │ │
-│ │  :  7   " ┴ "   2  :  │   2:                                       [L]   │ │
-│ │  :──────(ToT)──────:  │   3:                                       [L]   │ │
-│ │  :  6   . ┬ .   3  ;  │   4:                                       [L]   │ │
-│ │   \   ."  │  ".   /   │   5:                                       [L]   │ │
-│ │    `."  5 │ 4  ".'    │   6:                                       [L]   │ │
-│ │       '-..│..-'       │                                                  │ │
-│ │     Time On Target    │   $ program slots      [L] [L] [L] [L] [L] [L]   │ │
-│ │                       │                                                  │ │
-│ ├─overclock─────────────┴──────────────────────────────────┬───────────────┤ │
-│ │                                                          │   _.──┬──._   │ │
-│ │                                                          │  "    │    "  │ │
-│ │          upgrades in here                                │ :     │     : │ │
-│ │               idfk who cares about this bit              │ ├─────┼─────┤ │ │
-│ │                                                          │ :     │     : │ │
-│ │                                                          │  .    │    .  │ │
-│ │                                                          │   `"──┴──"`   │ │
-│ │      compromised-fried-glitched-ransomlocked-traced      │    bricked    │ │
-│ ├──────────────────────────────────────────────────────────┴───────────────┤ │
-│ └──────────────────────────────────────────────────────────────────────────┘ │
-
-
-
-
-⣶
-⣦
-⣤
+│ ├─synopsis──────────────────────┬─overclock─────────────┬─issues───────────┤ │
+│ │                               │                       │                  │ │
+│ │   cyberdeck:                  │      .-"``":`"-.      │  --compromised   │ │
+│ │   ├── allows quickhacks       │    .`    4  ".  `.    │  --corrupted     │ │
+│ │   ├── runs daemons/programs   │   / _.._      "   \   │  --fried         │ │
+│ │   ├── contributes base ToT    │  :."    ".-. ." 1  :  │  --glitched      │ │
+│ │   └── provides an air-gapped  │  :"     (   )     .:  │  --ransomlocked  │ │
+│ │       interface with foreign  │  :  3  " "-"._  _.";  │  --stolen        │ │
+│ │       cybersystems            │   \   "       ""  /   │  --traced        │ │
+│ │                               │    `. ".   2    .'    │  --unsupported   │ │
+│ │                               │       '-.:_..-'       │  --wiped         │ │
+│ │                               │        bricked        │                  │ │
+│ │                               │                       │                  │ │
+│ ├───────────────────────────────┴───────────────────────┴──────────────────┤ │
 │ │                                                                          │ │
 │ │           ┌──────────────────────────────────────────────────┐           │ │
 │ │           │┌┐tot-top┌─────────────┐remaining Time On Target┌┐│           │ │
 │ │           ││                                                ││           │ │
-│ │           ││  tens   9   8   7   6   5  *4   3   2   1   0  ││           │ │
-│ │           ││  [ ]    │   │   │   │   │   │===│===│===│===│  ││           │ │
+│ │           ││ 10  9   8   7   6   5  *4   3   2   1   0 tens ││           │ │
+│ │           ││ │   │   │   │   │   │   │===│===│===│===│  [ ] ││           │ │
 │ │           ││                                                ││           │ │
-│ │           ││  ⡄⣆  ⡀⣧⢀    ⡄⣦⣸ ⢀⣆  ⡀⣠⣷  ⢠ ⡀  ⡄⣾⣄⣦⢀   ⡄⣆ ⢀⣾ ⡀  ││           │ │
-│ │           ││  ⣿⣿⣆⣠⣷⣿⣿⣄⣰⣀⣴⣧⣿⣿⣦⣿⣿⣄⣆⣿⣿⣿⣧⣰⣿⣠⣿⣄⣾⣿⣿⣿⣿⣿⣠⣧⣸⣿⣿⣦⣿⣿⣧⣧  ││           │ │
-│ │           ││  ⣿⣿⠏⠙⡿⣿⣿⠋⠹⠉⠻⡟⣿⣿⠟⣿⣿⠋⠏⣿⣿⣿⡟⠹⣿⠙⣿⠋⢿⣿⣿⣿⣿⣿⠙⡟⢹⣿⣿⠟⣿⣿⡟⡟  ││           │ │
-│ │           ││  ⠃⠏  ⠁⡟⠈    ⠃⠟⢹ ⠈⠏  ⠁⠙⡿  ⠘ ⠁  ⠃⢿⠋⠟⠈   ⠃⠏ ⠈⢿ ⠁  ││           │ │
+│ │           ││ ┌───┐ ⡄⣆  ⡀⣧⢀    ⡄⣦⢀⣆  ⡀⣠⣷  ⢠ ⡀  ⡄⣦⢀   ⡄ ┌───┐ ││           │ │
+│ │           ││ │   │ ⣿⣿⣆⣠⣷⣿⣿⣄⣰⣀⣴⣧⣿⣸⣿⣄⣆⣿⣿⣿⣧⣰⣿⣠⣿⣄⣾⣿⣿⣿⣠⣧⣸⣿ │   │ ││           │ │
+│ │           ││ └───┘ ⣿⣿⠏⠙⡿⣿⣿⠋⠹⠉⠻⡟⣿⢹⣿⠋⠏⣿⣿⣿⡟⠹⣿⠙⣿⠋⢿⣿⣿⣿⠙⡟⢹⣿ └───┘ ││           │ │
+│ │           ││ load. ⠃⠏  ⠁⡟⠈    ⠃⠟⠈⠏  ⠁⠙⡿  ⠘ ⠁  ⠃⠟⠈   ⠃ qual. ││           │ │
 │ │           ││                                                ││           │ │
 │ │   ________│└──────────────────────────────────────┘*baseToT└┘│_          │ │
 │ │  │`".     └────────────────────[________]────────────────────┘ \         │ │
@@ -87,7 +145,9 @@ special item: cyberdeck block
 │ │    / <  /__//__//__//__//__//__/   ()   \__\\__\\__\\__\\__\\__\   \     │ │
 │ │   /__  /  //  //  //  //  //  /          \  \\  \\  \\  \\  \\  \   \    │ │
 │ │   /   /__//__//__//__//__//__/ ___....___ \__\\__\\__\\__\\__\\__\   \   │ │
-│ │  /                            /___\__/___\                            \  │ │    
+│ │  /                            /___\__/___\                            \  │ │
 │ │ /______________________________________________________________________\ │ │
 │ │ │ IMB                                                        ThinkDeck │ │ │
 │ │ └──────────────────────────────────────────────────────────────────────┘ │ │
+│ │                                                                          │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │

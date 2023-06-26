@@ -31,10 +31,10 @@
     │   └── background_block       key info, tailored for each playbook.
     │
     ├── load_&_items_sheet         the load & items sheet tracks what you've 
-    │   └── special_item_block     got access to/on your person at any time.
+    │   └── asset_block            got access to/on your person at any time.
     │       ├── cyberdeck_block
     │       ├── drone_block        in contrast to generic items which you  
-    │       ├── gear_block         have a steady supply of, item blocks
+    │       ├── gear_block         have a steady supply of, asset blocks
     │       ├── vehicle_block      track individual items which have stories 
     │       └── weapon_block       we care about. 
     │
@@ -141,7 +141,7 @@
 │   │     │     │     │    [│=====│=====│>    │     │     │     │     │     │  │
 │   │                 │     │           │                 │                    │
 │   encumbered        heavy normal      light             bonus                │
-├─load/special─items──────────────────────────────────┬─load/generic─items─────┤
+├─load/assets─────────────────────────────────────────┬─load/generic─items─────┤
 │                                                     │                        │
 │   key:  ( ) = 0 load; [ ] = 1; [ ]:[ ] = multiple   │ blade or two       [ ] │
 │                                                     │                        │
@@ -171,9 +171,9 @@
 │   │                                                 │                        │
 │   └── type: e.g. assassins'         uses: ( ) ( )   │ lantern            [ ] │
 │                                                     │                        │
-├─special─items───────────────────────────────────────┴────────────────────────┤
+├─assets──────────────────────────────────────────────┴────────────────────────┤
 │                                                                              │
-└───────────────────────────────────────────insert─item─blocks─above─this─line─┘
+└──────────────────────────────────────────insert─asset─blocks─above─this─line─┘
 
  ══════════════════════════════════ CYBERWARE ═════════════════════════════════
  
