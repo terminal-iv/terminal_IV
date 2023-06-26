@@ -1,30 +1,51 @@
-asset: cyberdeck block
+asset: cyberdeck_block
 
    asset: cyberdeck. proceed with configuration? [y/N]
+
+ =============================================================================  
+
+   FAST-TRACK:
+
+   tl;dr grab a pre-built cyberdeck_block from /etc/cyberdeck/config and
+   copy the default configuration for a deck of Quality = crew Tier (or 
+   Tier+1 if your playbook/background give you access to Fine cyberdecks). 
+   
+   paste it under "assets" in the Load_&_Items sheet of your character file.
+
+   the Admin will tell you if you should copy a different Quality deck  
+   config for whatever reason (e.g. as a result of an acquire(2) command).
+
+   Or, read on to build a custom cyberdeck to your specifications. 
+
+ =============================================================================
 
    $ tree
    .
    ├── what is a cyberdeck?
-   ├── how to configure a cyberdeck (including Fast-track if in a rush)
-   └── the cyberdeck asset block itself
+   ├── configuring a cyberdeck 
+   └── blank cyberdeck asset block
 
    EXPLAIN WHAT CYBERDECKS DO HERE LOL
-   ToT, Daemons, Programs, copy the synopsis
+   ToT, Daemons, Programs, edges/flaws, overclock, copy the synopsis
+
 
    CONFIGURING A CYBERDECK
-   
-   Option 1: Fast-track. Determine the deck's Quality (step 1) and skip all
-   the subsequent steps. Use the default config for a deck of that Quality,
-   which should be located at /etc/cyberdeck/config. 
-   
-   Option 2: Custom-build. Follow the instructions below in full to build a
-   deck to your specifications. 
 
-
+   copy the blank cyberdeck_block at the end of this file and paste it under
+   "assets" in the Load_&_items sheet of your character file. Then follow
+   these steps:
+   
    1. QUALITY - determine initial Decking Out Points pool
 
-   DOPs are the currency you spend to "Deck Out" an asset. (They're called
-   that because the cyberdeck was the first asset we designed!) 
+   a deck's Quality represents its current value as a deck, not its value
+   when it was new; a deck which is in pristine condition or has been
+   extensively emhanced will be much higher Quality than an old battered
+   deck of the same model. 
+
+   the higher the Quality of the deck you're building, the more Decking Out
+   Points (DOPs) you get to spend on it to reflect its higher value. DOPs can
+   be spent to unlock Daemon and Program slots, increase a deck's base Time 
+   On Target, or purchase Edges/remove Flaws. 
 
       Quality                                                Initial DOPs
       0 - poor..........................................................6
@@ -38,6 +59,8 @@ asset: cyberdeck block
    If your playbook or background give you access to Fine cyberdecks, get +1
    DOP (this bonus stacks, e.g. +1 from both playbook and background = +2).
 
+   Record the deck's Quality on the graphic on the cyberdeck_block.
+
    You can tally your current DOP total as you go along here: --> 
 
 
@@ -45,10 +68,9 @@ asset: cyberdeck block
 
    Larger decks get more DOPs to allocate since they outperform smaller
    decks at a given Quality/price point. This is because:
-
    - larger decks can fit more hardware 
    - miniaturising components to fit into a smaller form factor is expensive
-   - cooling a large deck is easier, avoiding thermal throttling
+   - cooling a large deck is easier, avoiding thermal throttling/overheating
 
    The tradeoff of the larger form-factor is that heavy battle decks are
    harder to conceal and lug around.
@@ -62,7 +84,25 @@ asset: cyberdeck block
    You can only make use of an --implanted battle deck if you're building
    this deck to get it chipped as a piece of cyberware (see chip(2))
 
-   3. MANUFACTURER - get edges/flaws to reflect corporate reputations
+   Record the deck's Load on the graphic on the cyberdeck_block, make a
+   note of any Edges/Flaws you gained, and update your DOP tally. 
+
+
+   3. MANUFACTURER - get Edges/Flaws to reflect corporate reputations
+
+   Pick a manufacturer and add the Edges/Flaws that represent their 
+   corporate brand identity:
+
+   Celer8 --budget (+1DOP, but take a Flaw) wait is this worth taking?
+   Circle --luxe
+   Delphi --intrusion-hardened
+   --quiet --energy-efficient
+   --modular-repair
+   ThinkDeck --ruggedised
+   Mens/Materia
+   Scratch-built/DIY --private but --unreliable
+
+   Or get with the Admin to create a custom corporation
 
    
 
@@ -157,3 +197,5 @@ asset: cyberdeck block
 │ │ └──────────────────────────────────────────────────────────────────────┘ │ │
 │ │                                                                          │ │
 │ └──────────────────────────────────────────────────────────────────────────┘ │
+
+daemons/programs!! 
