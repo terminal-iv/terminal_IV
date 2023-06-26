@@ -2,10 +2,16 @@ asset: cyberdeck block
 
    asset: cyberdeck. proceed with configuration? [y/N]
 
+   $ tree
+   .
+   ├── what is a cyberdeck?
+   ├── how to configure a cyberdeck (including Fast-track if in a rush)
+   └── the cyberdeck asset block itself
+
    EXPLAIN WHAT CYBERDECKS DO HERE LOL
    ToT, Daemons, Programs, copy the synopsis
 
-   MAKING A CYBERDECK
+   CONFIGURING A CYBERDECK
    
    Option 1: Fast-track. Determine the deck's Quality (step 1) and skip all
    the subsequent steps. Use the default config for a deck of that Quality,
