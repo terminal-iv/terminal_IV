@@ -7,13 +7,13 @@
    FAST-TRACK:
 
    tl;dr go to /etc/cyberdeck/config and copy the default cyberdeck_block
-   configuration for a deck of Quality equal to your crew's Tier (or Tier+1 
+   configuration for a deck of Quality equal to your crew's Tier (or Tier+1
    if your playbook and/or background give you access to Fine cyberdecks). 
    
    paste it under "assets" in the Load_&_Items sheet of your character file.
 
-   the Admin will tell you if you should copy a different Quality deck  
-   config for whatever reason (e.g. as a result of an acquire(2) command).
+   the Admin will tell you if you should copy a different Quality deck config 
+   for whatever reason (e.g. as a result of an acquire(2) command).
 
    Or, read on to build a custom cyberdeck to your specifications. 
 
@@ -23,13 +23,21 @@
    .
    ├── what is a cyberdeck?
    ├── configuring a cyberdeck
-   │   └── 1. quality
+   │   ├── 1. quality
+   │   ├── 2. load/form
+   │   ├── 3. manufacturer
+   │   ├── 4. flaws   
+   │   ├── 5. spend DOP pool
+   │   └── 6. name and look
+   ├── upgrading a cyberdeck
    └── blank cyberdeck asset block
+
+ ==============================================================================
 
    WHAT IS A CYBERDECK?
 
    cyberdeck synopsis:
-   ├── allows Fasthacks
+   ├── allows Fasthacks (if you have the relevant Special Ability)
    ├── runs Daemons/Programs
    ├── contributes base Time On Target
    └── provides an air-gapped interface with foreign cybersystems
@@ -39,17 +47,16 @@
 
    cyberdecks are the way terminal_IV characters interact with cybersystems.
    
-   the thing that differentiates a cyberdeck from a regular personal 
-   computer is that cyberdecks are kitted out to hack systems and avoid 
-   detection.
+   the thing that differentiates a cyberdeck from a regular personal computer
+   is that cyberdecks are kitted out to hack systems and avoid detection.
 
    hackers are extremely cautious about bridging the gap between their 
-   internal/"onboard" and external/"foreign" cybersystems. plugging your 
+   internal/"onboard" and external/"foreign" cybersystems. plugging your
    body's I/O ports into a network you don't control is inviting trouble.
 
-   since you operate your cyberdeck via its keyboard interface, your
-   internal system is air-gapped from the system you're interacting with,
-   mitigating the risk of your internals being compromised.
+   since you operate your cyberdeck via its keyboard interface, your internal
+   system is air-gapped from the system you're interacting with, mitigating 
+   the risk of your internals being compromised.
 
    the tradeoff is that the speed at which you can type limits the speed of 
    your hack's progress. to compensate, hackers have developed specialised 
@@ -59,8 +66,8 @@
    implant "deck-on-a-chip"-style decks anyway. 
 
    cyberdecks are usually (but not always) portable devices, and are often 
-   worn on a shoulder strap for use during action. it's common for keys to 
-   be placed on a telescoping "neck" to allow a guitar-like grip when on the
+   worn on a shoulder strap for use during action. it's common for keys to be 
+   placed on a telescoping "neck" to allow a guitar-like grip when on the 
    move, which collapses down to behave more like a laptop when mobility
    isn't required.
 
@@ -68,21 +75,21 @@
    cyberdeck functions
 
    Time On Target
-   ToT represents the amount of time a cyberdeck's anti-detection
-   countermeasures can keep your activity concealed. the more base ToT a 
-   deck contributes, the more you'll be able to accomplish in a cybersystem
-   before you're compromised; see the breach(1) command for more info.
+   ToT represents the amount of time a cyberdeck's anti-detection 
+   countermeasures can keep your activity concealed. the more base ToT a deck
+   contributes, the more you'll be able to accomplish in a cybersystem before 
+   you're compromised; see the breach(1) command for more info.
 
    Daemons and Programs
    Daemons are passive, "always-on" abilities granted by your cyberdeck. 
-   Programs are abilities that can be triggered to complete a defined 
-   function. you can have any number of Deamons and Programs installed (see 
+   Programs are abilities that can be triggered to complete a defined
+   function. you can have any number of Deamons and Programs installed (see
    the make(2) command), but your cyberdeck can only run a set number of
    them between uses of the maintain(2) command.
 
-      You can have a number of active Daemons equal to the number of
-      unlocked Daemon slots on your cyberdeck. You can swap Daemons in and
-      out of slots at will.
+      You can have a number of active Daemons equal to the number of unlocked  
+      Daemon slots on your cyberdeck. You can swap Daemons in and out of 
+      slots at will.
 
       To run a program, mark an unlocked Program slot. That slot cannot be
       reused until you reset your deck with a maintain(2) command. 
@@ -92,9 +99,14 @@
    cyberdeck. They come into play when considering position/effect and
    consequences of action rolls.
 
-   Upgrades
-
    Overclock
+   Overclock is like Trauma but for your equipment. When you run out of ToT
+   while on an op against a dangerous target without smoothly disconnecting,
+   or otherwise push your deck beyond what it's capable of handling, bad
+   things happen. Permenantly fill one segment of the Overclock clock, and 
+   take a Flaw (examples in the issues box). The Flaw is active until you 
+   take steps to address it. On your fourth Overclock, the deck is bricked
+   and will never function again. 
 
  ==============================================================================
  CONFIGURING A CYBERDECK
@@ -108,7 +120,7 @@
    
    1. QUALITY - determine initial Decking Out Points pool
 
-   cyberdecks, like all items/assets, have a Quality - a measure of the 
+   cyberdecks, like all items/assets, have a Quality - a measure of the
    deck's value. Quality is a useful tool for comparing the capabilities of
    items/assets - see the act(1) and breach(1) commands. 
 
@@ -179,19 +191,21 @@
 
    Celer8 --lightweight --budget (see step 4)
    Circle --luxe
+   DekBloks --modular-repair 
    Delphi --intrusion-hardened
-   --quiet --energy-efficient
-   --modular-repair
+   Mens/Materia --lightning-fast
    ThinkDeck --ruggedised
-   Mens/Materia
-
-
-   FINISH THE CORP LIST !!!
-
-
-   Scratch-built/DIY --private but --unreliable
+   Yamaha --quiet --energy-efficient
+   need to expand/improve this list!! more international-sounding corps
 
    or get with the Admin to create a custom corporation.
+   
+   non-corporate options:
+
+   scratch-built/DIY --private but --unreliable
+   add --free-software to replace proprietary operating systems with your own
+   free substitute, but also take --untested-OS as a consequence of opting
+   out of corporate convenience
 
    mote down your manufacturer and any new Edges. 
    
@@ -218,18 +232,18 @@
 
    these Edges stack and can be taken multiple times (e.g. your deck is 
    Quality 1, but this model would be Quality 3 in factory condition; mark 
-   the Edge "--second-hand", and then add 2DOPs to your tally in exchange 
-   for 2 extra Flaws. the deck now has specs like a Quality 3 deck, but in
-   return it has at least two things Wrong With It.
+   the Edge "--second-hand", and then add 2DOPs to your tally in exchange for 
+   2 extra Flaws. the deck now has specs like a Quality 3 deck, but in return
+   it has at least two things Wrong With It.
 
    example flaws:
 
-   --adware                     --forced-updates              --static
-   --beaten-up                  --hard-to-repair              --under-cooled   
-   --bottlenecked               --heavy                       --unreliable
-   --conspicuous                --locked-down                 --unsafe 
-   --damaged(component)         --loud                        --vulnerable
-   --data-selling               --slow
+   --adware                      --forced-updates             --static
+   --beaten-up                   --hard-to-repair             --under-cooled   
+   --bottlenecked                --heavy                      --unreliable
+   --conspicuous                 --locked-down                --unsafe 
+   --damaged(component)          --loud                       --vulnerable
+   --data-selling                --slow
 
    note down any new Edges/Flaws you've picked up and update your DOP tally.
    
@@ -237,14 +251,10 @@
 
    5. SPEND DOP POOL
 
-   spend the DOPs you've tallied up 1-for-1 to buy:
+   spend the DOPs you've tallied up 1-for-1 to buy Base ToT, Daemon slots,
+   Program slots and Edges.
 
-      Base ToT
-      Daemon slots
-      Program slots
-      Edges
-
-   example of how to fill out a Quality 1 deck graphic (7 DOPs):
+   example: a Quality 1 deck (7 DOPs):
 
    specs: normal form, 2-Load, 2 Deamon slots, 1 Program slot, 4 Base ToT
 
@@ -254,7 +264,7 @@
               ││ 10  9   8   7   6   5  *4   3   2   1   0 tens ││
               ││ │   │   │   │   │   │   │===│===│===│===│  [ ] ││
               ││                                                ││
-              ││ form: normal    ^ToT remaining       *base ToT ││
+              ││ form: normal     ToT remaining       *base ToT ││
               ││                                                ││
               ││ ┌───┐ ⡄⣆  ⡀⣧⢀    ⡄⣦⢀⣆  ⡀⣠⣷  ⢠ ⡀  ⡄⣦⢀   ⡄ ┌───┐ ││
               ││ │ 2 │ ⣿⣿⣆⣠⣷⣿⣿⣄⣰⣀⣴⣧⣿⣸⣿⣄⣆⣿⣿⣿⣧⣰⣿⣠⣿⣄⣾⣿⣿⣿⣠⣧⣸⣿ │ 1 │ ││
@@ -273,27 +283,71 @@
     │ IMB                                                        ThinkDeck │
     └──────────────────────────────────────────────────────────────────────┘
      
-     you can write your deck's manufacturer/model/name across the front if
-     you like!
+   you can write your deck's manufacturer/model/name on the base if you like!
      
-     "UL" on the upper key of a Daemon/Program slot shows it's unlocked:
-     "x" on the lower key shows the Program slot has been used/the Daemon 
-     slot is currently in use. 
+   "UL" on the upper key of a Daemon/Program slot shows it's unlocked; mark 
+   an "x" on the lower key during play to show a Program slot has been used
+   or a Daemon slot is currently in use. 
 
  ==============================================================================
 
-   6. LOOK
+   6. NAME AND LOOK - details and cosmetics
 
+   give your cyberdeck a model name (and if it's one you care about, an
+   iconic name too).
+   
+   e.g: the IMB ThinkDeck 7001c "Thread Dancer". Tried and tested ThinkDeck          
+            └───────────┘ └───┘ └─────────────┘  construction: perfect for
+             manufacturer model   iconic name    macrogravity environments
+   
+   pick some entries from this list for the deck's Look, or import your own:
 
+   --bent_antennae             --greebles                  --RGB-everywhere
+   --blinkenlights             --guitar-strap              --scratched-up
+   --clicky-switches           --holographic-display          -screen
+   --dials/gauges-up-to-11     --intake-grilles            --spotless-brushed 
+   --duct_tape                 --I/O ports                    -aluminium
+   --fold-out-keyboard         --messy-cable-management    --spray-paint
+
+   write down details of any stickers/decals you've got on your deck, and
+   you're done!!
 
  ==============================================================================
- 
-   7. NAMES
+ UPGRADING A CYBERDECK
+ ==============================================================================
 
+   cyberdecks can be improved through the upgrade(2) command during downtime 
+   to increase their Quality. 
 
+   your Assets do not automatically scale up in Quality as you go up in Tier.
+   unless you do something about it, that Quality 1 cyberdeck you've had with 
+   you right from the start of the game will stay Quality 1, even as you 
+   level up. while you can always just buy a new deck more suitable for a
+   hacker of your status, this deck's *yours* - the upgrade(2) command lets 
+   it stay relevant.
 
+   upgrading lets you make any improvement to your deck worth 1 DOP (see step
+   5 below: +1ToT, +1 Daemon/Program slot, +1Edge) OR gain some other 
+   fictional benefit.
 
+   Examples:
 
+   hardware killswitch: if a breach op goes bad, make an Interface action
+   roll to disconnect cleanly, even if you have 0 ToT remaining.
+
+   integration rail: mount a weapon (e.g. a handgun, grenade launcher) to
+   your deck (increase Load accordingly)
+
+   COMPANY NAME SOFTWARE: high-end proprietary ICE package; gain 
+   --intrusion-hardened, but are there backdoors?
+
+   oversized radiators: strike --under-cooled if you have it; otherwise gain
+   --overheat-attack-resistance vs hostile netrunners
+
+   stealth fans: strike --loud if you have it; otherwise gain --silent; your
+   deck can run full blast without giving you away
+
+   DDR12 RAM upgrade: +1 Daemon or Program slot 
 
  ==============================================================================
  ASSET: CYBERWARE_BLOCK
@@ -343,7 +397,7 @@
 │ │           ││ 10  9   8   7   6   5  *4   3   2   1   0 tens ││           │ │
 │ │           ││ │   │   │   │   │   │   │===│===│===│===│  [ ] ││           │ │
 │ │           ││                                                ││           │ │
-│ │           ││ form: normal    ^ToT remaining       *base ToT ││           │ │
+│ │           ││ form: normal     ToT remaining       *base ToT ││           │ │
 │ │           ││                                                ││           │ │
 │ │           ││ ┌───┐ ⡄⣆  ⡀⣧⢀    ⡄⣦⢀⣆  ⡀⣠⣷  ⢠ ⡀  ⡄⣦⢀   ⡄ ┌───┐ ││           │ │
 │ │           ││ │   │ ⣿⣿⣆⣠⣷⣿⣿⣄⣰⣀⣴⣧⣿⣸⣿⣄⣆⣿⣿⣿⣧⣰⣿⣠⣿⣄⣾⣿⣿⣿⣠⣧⣸⣿ │   │ ││           │ │
@@ -362,5 +416,23 @@
 │ │ │ IMB                                                        ThinkDeck │ │ │
 │ │ └──────────────────────────────────────────────────────────────────────┘ │ │
 │ │                                                                          │ │
+│ ├─daemons──────────────────────────────────────────────────────────────────┤ │
+│ │                                                                          │ │
+│ │   Daemon name:                                             active: [ ]   │ │
+│ │   synopsis:                                                              │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ ├─programs─────────────────────────────────────────────────────────────────┤ │
+│ │                                                                          │ │
+│ │   Program name:                                                          │ │
+│ │   synopsis:                                                              │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ ├─upgrades─────────────────────────────────────────────────────────────────┤ │
+│ │                                                                          │ │
+│ │   Upgrade name:                                                          │ │
+│ │   synopsis:                                                              │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
 │ └──────────────────────────────────────────────────────────────────────────┘ │
-daemons/programs/upgrades!! and form
