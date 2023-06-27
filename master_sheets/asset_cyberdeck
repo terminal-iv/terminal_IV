@@ -22,6 +22,8 @@
    $ tree
    .
    ├── what is a cyberdeck?
+   │   ├── background
+   │   └── cyberdeck functions
    ├── configuring a cyberdeck
    │   ├── 1. quality
    │   ├── 2. load/form
@@ -33,17 +35,16 @@
    └── blank cyberdeck asset block
 
  ==============================================================================
-
    WHAT IS A CYBERDECK?
+ ==============================================================================
+
+   BACKGROUND
 
    cyberdeck synopsis:
    ├── allows Fasthacks (if you have the relevant Special Ability)
    ├── runs Daemons/Programs
    ├── contributes base Time On Target
    └── provides an air-gapped interface with foreign cybersystems
-
-
-   background
 
    cyberdecks are the way terminal_IV characters interact with cybersystems.
    
@@ -68,11 +69,12 @@
    cyberdecks are usually (but not always) portable devices, and are often 
    worn on a shoulder strap for use during action. it's common for keys to be 
    placed on a telescoping "neck" to allow a guitar-like grip when on the 
-   move, which collapses down to behave more like a laptop when mobility
-   isn't required.
+   move. The neck collapses down so the deck behaves more like a laptop when 
+   mobility isn't required.
 
+ ==============================================================================
 
-   cyberdeck functions
+   CYBERDECK FUNCTIONS
 
    Time On Target
    ToT represents the amount of time a cyberdeck's anti-detection 
