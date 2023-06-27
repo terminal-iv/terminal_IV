@@ -1,0 +1,286 @@
+┌──────────────────~/terminal_IV/resources/character_file.txt──────────────────┐
+│                                                                              │
+│   This character file is distributed in the hope that it will be useful,     │
+│   but WITHOUT ANY WARRANTY; without even the implied warranty of             │
+│   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. It is yours to hack   │
+│   as you choose.                                                             │
+│                                                                              │
+│   terminal_IV is still in development. track issues and contribute playtest  │
+│   feedback @ github.com/terminal-iv/terminal_IV                              │
+│                                                                              │
+│   get in touch: @puns_and_ships@dice.camp, discord puns_and_ships            │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+    how to use this file
+
+    this character file comprises 4 "sheets" which each track information
+    about different parts of your character. the core sheet is required, but
+    you can delete the other three if you don't need them.
+
+    each "sheet" has space to paste in modular "blocks" which provide a
+    means of customising your character's background, items, cyberware and 
+    abilities. you can recognise a block by its inset line borders.
+
+    choose example blocks to paste in as-is from the rulebook, or
+    follow the frameworks provided to write, test and balance your own.
+
+    $ tree 
+    .
+    ├── core_sheet                 the core sheet contains your character's 
+    │   └── background_block       key info, tailored for each playbook.
+    │
+    ├── load_&_items_sheet         the load & items sheet tracks what you've 
+    │   └── asset_block            got access to/on your person at any time.
+    │       ├── cyberdeck_block
+    │       ├── drone_block        in contrast to generic items which you  
+    │       ├── gear_block         have a steady supply of, asset blocks
+    │       ├── vehicle_block      track individual items which have stories 
+    │       └── weapon_block       we care about. 
+    │
+    ├── cyberware_sheet            the cyberware sheet tracks the status and
+    │   └── cyberware_block        capabilities of your installed cyberware.
+    │
+    └── special_abilities_sheet    the special ability sheet tracks the  
+        └── special_ability_block  abilities you've unlocked by earning XP. 
+
+
+    you may find your computer's INSERT function helpful for editing the text
+    fields in this file without messing up the formatting.
+
+
+
+    character creation
+
+    1) choose a Playbook. presumably you've already done that, or else you
+       wouldn't be looking at this file!
+
+    2) choose a Background. **this bit's still under construction - skip**
+
+    3) choose three actions you're Skilled at and mark the corresponding
+       Skill action boxes. If you want guidance:
+       - choose the Skill recommended by your Background
+       - choose a Skill you picked up while training as a netrunner
+       - choose a Skill you learned from someone in your past
+
+    4) pick either a piece of cyberware or a special ability to start with;
+       follow the rules in chip(2) and advance(2) respectively. SKIP THIS BIT
+
+    5) choose a close friend and a rival from your playbook or background
+
+    6) choose your Vice from the list and specify the details, and the 
+       name/location of your vice purveyor.
+
+    7) record your name, alias, and look (samples in progress)
+	
+    8) review your details. note your experience triggers, and the special
+       items/assets your playbook/background give you access to.
+
+actions:
+├── insight
+│   ├── analyse    connect the dots, devise schemes, digest info, crawl the Net
+│   ├── connect    get someone/let them get you, win them over, be people people 
+│   └── read       read a sitch/person/map, get a gut feel, spot danger in time  
+├── prowess
+│   ├── bruteforce throw fists, launch (over/through) stuff, bring the big guns 
+│   ├── execute    act fast, run/jump/make the landing, employ fluid precision
+│   └── ghost      evade detection, exploit surprise, klep from under their nose
+├── technique
+│   ├── engineer   make/manipulate hardware, rig explosives, doctor flesh/chrome 
+│   ├── interface  perceive the Net, deepdive cybersystems, become one with data
+│   └── operate    lead a car chase, control a turret gun/recon drone/cybertrain
+└── resolve
+    ├── burn       get fiery, distract with chaos, spray bullets/shrapnel/paint
+    ├── focus      keep cool, breathe deep, sight the target, pull the trigger
+    └── influence  impose your will, trick/threaten/charm to get your way
+    
+note, this is too wide here. do something about that
+
+ ════════════════════════════════════ CORE ════════════════════════════════════
+ 
+┌─alias───────────────────────────────────────────────┬─playbook───────────────┐
+│                                                     │ NETRUNNER: a hacker    │
+│                                                     │ extraordinaire         │
+├─bio─────────────────────────────────────────────────┼─actions────┬───┬───┬───┤
+│                                                     │            │Skl│Spc│Mst│
+│                                                     ├────────────┴───┴───┴───┤
+│   name:                                             │ insight        xp[0/8] │
+│                                                     ├────────────┬───┬───┬───┤
+│   crew:                                             │ analyse    │   │   │   │
+│                                                     │            ├───┼───┼───┤
+│   background:                                       │ connect    │   │   │   │
+│                                                     │            ├───┼───┼───┤
+│                                                     │ read       │   │   │   │
+│   look:                                             ├────────────┴───┴───┴───┤
+│                                                     │ prowess        xp[0/8] │
+│                                                     ├────────────┬───┬───┬───┤
+│   lure:   SKIIP                                     │ bruteforce │   │   │   │
+│                                                     │            ├───┼───┼───┤
+│                                                     │ execute    │   │   │   │
+│   address:          SKIIIIIP                        │            ├───┼───┼───┤
+│                                                     │ ghost      │   │   │   │
+│                                                     ├────────────┴───┴───┴───┤
+│                                                     │ technique      xp[0/8] │
+│   credits: wallet [0/4]; stash [0/40]               ├────────────┬───┬───┬───┤
+│                                                     │ engineer   │   │   │   │
+│   lifestyle (stash÷10, round down): [0/4]           │            ├───┼───┼───┤
+│                                                     │ interface  │ Y │ Y │   │
+│   playbook xp: [0/10]                               │            ├───┼───┼───┤
+│                                                     │ operate    │   │   │   │
+│   xp triggers:                                      ├────────────┴───┴───┴───┤
+│   ├── desperate action xp                           │ resolve        xp[0/8] │
+│   └── 1-2 xp each @ session end                     ├────────────┬───┬───┬───┤
+│       ├── address a challenge with cyberconflict    │ burn       │   │   │   │
+│       │   or stolen information                     │            ├───┼───┼───┤
+│       ├── express beliefs/drive/background          │ focus      │   │   │   │
+│       └── struggle with vice/trauma                 │            ├───┼───┼───┤
+│                                                     │ influence  │   │   │   │
+├─────────────────────────────────────────────────────┴────────────┴───┴───┴───┤
+├─harm─────────────────────────────────────────┬──────┬─armour─┬─healing─clock─┤
+│   │                                          │ need │  uses  │   _.──┬──._   │
+│ 3 │                                          │ help │  ┌───┐ │  "    │    "  │
+├───┼─────────────────────┬────────────────────┼──────┤ L│   │ │ :     │     : │
+│   │                     │                    │      │  ├───┤ │ ├─────┼─────┤ │
+│ 2 │                     │                    │ -1d  │ H│   │ │ :     │     : │
+├───┼─────────────────────┼────────────────────┼──────┤  ├───┤ │  .    │    .  │
+│   │                     │                    │ less │ S│   │ │   `"──┴──"`   │
+│ 1 │                     │                    │effect│  └───┘ │   get better  │
+├───┴─────────────────────┴────────────────────┴──────┴────────┴───────────────┤
+├─stress───────────────────────────────────────────────────────┬─trauma─clock──┤
+│   0     1     2     3     4     5     6     7     8     9    │   _.──┬──._   │
+│   │=====│=====│=====│>    │     │     │     │     │     │   ─┼> "    │    "  │
+├─vice/purveyor────────────────────────────────────────────────┤ :     │     : │
+│                                                              │ ├─────┼─────┤ │
+│    faith—gambling—luxury—obligation—pleasure—stupor—weird    │ :     │     : │
+├─trauma───────────────────────────────────────────────────────┤  .    │    .  │
+│                                                             <┼─  `"──┴──"`   │
+│ cold—haunted—obsessed—paranoid-reckless—soft—unstable—vicious│ time runs out │
+├──────────────────────────────────────────────────────────────┴───────────────┤
+├─adjective─friends/rivals─────────────────────────────────────────────────────┤
+│                                                                              │
+│       Name, description:            Details:                                 │
+│                                                                              │
+│   [R] GC-251, a cybercrime Monitor                                           │
+│                                                                              │
+│   [F] Mimikatz, a hacktivist                                                 │
+│                                                                              │
+│   [ ] Vindemiatrix, a red-teamer                                             │
+│                                                                              │
+├─notes────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│   make room to paste background                                              │
+│   add lure xp                                                                │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+ ════════════════════════════════ LOAD & ITEMS ════════════════════════════════
+ 
+┌─load─remaining───────────────────────────────────────────────────────────────┐
+│   9     8     7     6     5     4     3     2     1     0    b1    b2    b3  │
+│   │     │     │     │    [│=====│=====│>    │     │     │     │     │     │  │
+│   │                 │     │           │                 │                    │
+│   encumbered        heavy normal      light             bonus                │
+├─load/assets─────────────────────────────────────────┬─load/generic─items─────┤
+│                                                     │                        │
+│   key:  ( ) = 0 load; [ ] = 1; [ ]:[ ] = multiple   │ blade or two       [ ] │
+│                                                     │                        │
+│   Fine cyberdeck  (asset)                 [ ]:[ ]   │ handgun [ ]   pair [ ] │
+│                                                     │                        │
+│   handful of data chips (supply)              ( )   │ large weapon   [ ]:[ ] │
+│                                                     │                        │
+│   VR netviewer visor (asset)                  [ ]   │ unusual weapon     [ ] │
+│                                                     │                        │
+│                                                     │ armour         [ ]:[ ] │
+│                                                     │ └─heavy    [ ]:[ ]:[ ] │
+│                                                     │                        │
+│                                                     │ IFAK               [ ] │
+│                                                     │ └─full trauma kit  [ ] │
+│                                                     │                        │
+│                                                     │ torch/lantern      [ ] │
+│                                                     │                        │
+│                                                     │ protest gear       [ ] │
+│                          update this whole load     │                        │
+│                              section ---->          │ drugs              [ ] │
+│                           all these items are kind  │                        │
+│                               of trash fr           │ burglary gear      [ ] │
+│                                                     │                        │
+│                                                     │ climbing gear  [ ]:[ ] │
+│                                                     │                        │
+│                                                     │ cyberdeck      [ ]:[ ] │
+│                                                     │                        │
+│                                                     │ databank           [ ] │
+│                                                     │                        │
+│                                                     │ subterfuge supplies[ ] │
+│   note:                                             │                        │
+│   explain supply items like immunostabs here!       │ demo. tools    [ ]:[ ] │
+│                                                     │                        │
+│   rigging                                     ( )   │ tinkering tools    [ ] │
+│   │                                                 │                        │
+│   └── type: e.g. assassins'         uses: ( ) ( )   │ immunostabs(s) [ ] [ ] │
+│                                                     │ (spare)        [ ] [ ] │
+│                                                     │                        │
+├─assets──────────────────────────────────────────────┴────────────────────────┤
+│                                                                              │
+└──────────────────────────────────────────insert─asset─blocks─above─this─line─┘
+
+ ══════════════════════════════════ CYBERWARE ═════════════════════════════════
+ 
+┌─chrome─clock───────────┬─load/immunostabs───────────┬─auto─injectors─────────┐
+│                        │                            │                        │
+│      .-"``│``"-.       │   no. immunostabs   ┌───┐  │   immune-suppressant   │
+│    .` " 6 │     `.     │   since last        │ 0 │  │  combat auto-injector  │
+│   /".5 "  │    1  \    │   maintenance:      └───┘  │                        │
+│  : 4 `-," │        :   │                            │ 1. remove  ʌ  _________│
+│  :────────┼────────:   │    1 immunostab = 1 load   │ top cap    │  \_twist_/│
+│  :        │        ;   │                            │_________        \___/  │
+│   \  3    │    2  /    ├─overloads──────────────────┤\┌┐   ┌┐/       ┌┐   ┌┐ │
+│    `.     │     .'     │                            │ │\_█_/│        │__---│ │
+│       '-..│..-'        │   no. overloads     ┌───┐  │ │══█══┼─spring─┼__---│ │
+│        overload      ──┼>  since last        │ 0 │  │ │═┌▀┐═│        │__---│ │
+│                        │   maintenance:      └───┘  │ │═│O│═│        │__---│ │
+│  tick on class A Cyber │                            │ │═│O│═│        │__│--│ │
+│   Die 1-3; permafill   │  when chrome clock fills,  │ │═│O├─┼─plunger│__│--│ │
+│  per class A-B chrome  │   drop out of this scene   │ │═│O│═│        │__│--│ │
+│                        │                            │ ╞═╧═╧═╡        │__│--│ │
+├─cyber─contacts─────────┴────────────────────────────┤ ╞═════╡        │__│--│ │
+│                                                     │ │    ─┼─vial   │__│--│ │
+│   who's your regular chipperdoc?                    │ │     │        │__v--│ │
+│   │                                                 │ │     │ last   │__---│ │
+│   │                                                 │ │     │ resort │__█--│ │
+│   │                                                 │ │     │ only:  │__█--│ │
+│   ├── from where do they operate their clinic?      │ │     │ use    │_┌▀┐-│ │
+│   │                                                 │ ├─_ _─┤ when   │_│O│-│ │
+│   │                                                 │ ├── ──┤ on     │_│O│-│ │
+│   │                                                 │ │┌─│─┐│ brink  │_│O│-│ │
+│   └── what's your relationship with them like?      │ ││ │ ││ of     │_│O│-│ │
+│                                                     │ ││ │ ││ over-  ╞═╧═╧═╡ │
+│                                                     │ │  │  │ load   ╞═════╡ │
+│                                                     │ │  │  │        ├─_ _─┤ │
+│   where do you get your immunostabs?                │ │  │  │        ├┬─│─┬┤ │
+│                                                     │ │  ├──┼─needle─┼┼─┤ ││ │
+│                                                     │ │  │  │        ││ │ ││ │
+│                                                     │  \   /          \ │ /  │
+│   how has your cyberware put you in debt?           │  │ │ │          │ │ │  │
+│                                                     │    v              │    │
+│                                                     │ 2. push firmly    │    │
+│                                                     │ against outside   │    │
+│                                                     │ thigh (10 seconds)     │
+│   not using chrome? just delete this whole section  │ do not touch this end  │
+│                                                     │                        │
+├─cyberware───────────────────────────────────────────┴────────────────────────┤
+│                                                                              │
+└──────────────────────────────────────insert─cyberware─blocks─above─this─line─┘
+
+ ══════════════════════════════ SPECIAL ABILITIES ═════════════════════════════
+
+┌─special─abilities────────────────────────────────────────────────────────────┐
+│                                                                              │
+└────────────────────────────────insert─special─ability─blocks─above─this─line─┘
+
+
+

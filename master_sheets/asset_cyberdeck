@@ -257,7 +257,7 @@
    Program slots and Edges. See the "what is a cyberdeck" section above for
    details on what these stats do.
 
-   example: a Quality 1 deck (7 DOPs):
+   example: filling out the graphic for a Quality 1 deck (7 DOPs)
 
    specs: normal form, 2-Load, 2 Deamon slots, 1 Program slot, 4 Base ToT
 
@@ -352,7 +352,7 @@
    DDR12 RAM upgrade: +1 Daemon or Program slot 
 
  ==============================================================================
- ASSET: CYBERWARE_BLOCK
+ ASSET: CYBERDECK_BLOCK
  ==============================================================================
 
    insert under "assets" on the Load_&_Items sheet 
@@ -436,5 +436,6 @@
 │ │   synopsis:                                                              │ │
 │ │                                                                          │ │
 │ │                                                                          │ │
-│ │                                                                          │ │
+│ ├──────────────────────────────────────────────────────────────────────────┤ │
+│ │   flashback a downtime command for daemons/programs/upgrades on the fly  │ │
 │ └──────────────────────────────────────────────────────────────────────────┘ │
