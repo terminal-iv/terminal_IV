@@ -60,7 +60,7 @@
 
    the tradeoff is that the speed at which you can type limits the speed of 
    your hack's progress. to compensate, hackers have developed specialised 
-   keyboards to allow rapid coding by "chording". others judge that a huge
+   keyboards to allow rapid coding by "chording". others judge that a sharp
    decrease in life expectancy is worth it for the power of hacking at the
    speed of thought, and dispense with air-gapping protections to use neural
    implant "deck-on-a-chip"-style decks anyway. 
@@ -252,7 +252,8 @@
    5. SPEND DOP POOL
 
    spend the DOPs you've tallied up 1-for-1 to buy Base ToT, Daemon slots,
-   Program slots and Edges.
+   Program slots and Edges. See the "what is a cyberdeck" section above for
+   details on what these stats do.
 
    example: a Quality 1 deck (7 DOPs):
 
@@ -326,9 +327,8 @@
    hacker of your status, this deck's *yours* - the upgrade(2) command lets 
    it stay relevant.
 
-   upgrading lets you make any improvement to your deck worth 1 DOP (see step
-   5 below: +1ToT, +1 Daemon/Program slot, +1Edge) OR gain some other 
-   fictional benefit.
+   upgrading lets you make one of the following improvements to your deck:
+   +1ToT, +1 Daemon/Program slot, +1 Edge, or get a fictional advantage.
 
    Examples:
 
@@ -397,7 +397,7 @@
 │ │           ││ 10  9   8   7   6   5  *4   3   2   1   0 tens ││           │ │
 │ │           ││ │   │   │   │   │   │   │===│===│===│===│  [ ] ││           │ │
 │ │           ││                                                ││           │ │
-│ │           ││ form: normal     ToT remaining       *base ToT ││           │ │
+│ │           ││ form:            ToT remaining       *base ToT ││           │ │
 │ │           ││                                                ││           │ │
 │ │           ││ ┌───┐ ⡄⣆  ⡀⣧⢀    ⡄⣦⢀⣆  ⡀⣠⣷  ⢠ ⡀  ⡄⣦⢀   ⡄ ┌───┐ ││           │ │
 │ │           ││ │   │ ⣿⣿⣆⣠⣷⣿⣿⣄⣰⣀⣴⣧⣿⣸⣿⣄⣆⣿⣿⣿⣧⣰⣿⣠⣿⣄⣾⣿⣿⣿⣠⣧⣸⣿ │   │ ││           │ │
