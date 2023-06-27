@@ -1,14 +1,14 @@
-asset: cyberdeck_block
+
 
    asset: cyberdeck. proceed with configuration? [y/N]
 
- =============================================================================  
+ ==============================================================================  
 
    FAST-TRACK:
 
-   tl;dr grab a pre-built cyberdeck_block from /etc/cyberdeck/config and
-   copy the default configuration for a deck of Quality = crew Tier (or 
-   Tier+1 if your playbook/background give you access to Fine cyberdecks). 
+   tl;dr go to /etc/cyberdeck/config and copy the default cyberdeck_block
+   configuration for a deck of Quality equal to your crew's Tier (or Tier+1 
+   if your playbook and/or background give you access to Fine cyberdecks). 
    
    paste it under "assets" in the Load_&_Items sheet of your character file.
 
@@ -17,35 +17,115 @@ asset: cyberdeck_block
 
    Or, read on to build a custom cyberdeck to your specifications. 
 
- =============================================================================
+ ==============================================================================
 
    $ tree
    .
    ├── what is a cyberdeck?
-   ├── configuring a cyberdeck 
+   ├── configuring a cyberdeck
+   │   └── 1. quality
    └── blank cyberdeck asset block
 
-   EXPLAIN WHAT CYBERDECKS DO HERE LOL
-   ToT, Daemons, Programs, edges/flaws, overclock, copy the synopsis
+   WHAT IS A CYBERDECK?
+
+   cyberdeck synopsis:
+   ├── allows Fasthacks
+   ├── runs Daemons/Programs
+   ├── contributes base Time On Target
+   └── provides an air-gapped interface with foreign cybersystems
 
 
-   CONFIGURING A CYBERDECK
+   background
+
+   cyberdecks are the way terminal_IV characters interact with cybersystems.
+   
+   the thing that differentiates a cyberdeck from a regular personal 
+   computer is that cyberdecks are kitted out to hack systems and avoid 
+   detection.
+
+   hackers are extremely cautious about bridging the gap between their 
+   internal/"onboard" and external/"foreign" cybersystems. plugging your 
+   body's I/O ports into a network you don't control is inviting trouble.
+
+   since you operate your cyberdeck via its keyboard interface, your
+   internal system is air-gapped from the system you're interacting with,
+   mitigating the risk of your internals being compromised.
+
+   the tradeoff is that the speed at which you can type limits the speed of 
+   your hack's progress. to compensate, hackers have developed specialised 
+   keyboards to allow rapid coding by "chording". others judge that a huge
+   decrease in life expectancy is worth it for the power of hacking at the
+   speed of thought, and dispense with air-gapping protections to use neural
+   implant "deck-on-a-chip"-style decks anyway. 
+
+   cyberdecks are usually (but not always) portable devices, and are often 
+   worn on a shoulder strap for use during action. it's common for keys to 
+   be placed on a telescoping "neck" to allow a guitar-like grip when on the
+   move, which collapses down to behave more like a laptop when mobility
+   isn't required.
+
+
+   cyberdeck functions
+
+   Time On Target
+   ToT represents the amount of time a cyberdeck's anti-detection
+   countermeasures can keep your activity concealed. the more base ToT a 
+   deck contributes, the more you'll be able to accomplish in a cybersystem
+   before you're compromised; see the breach(1) command for more info.
+
+   Daemons and Programs
+   Daemons are passive, "always-on" abilities granted by your cyberdeck. 
+   Programs are abilities that can be triggered to complete a defined 
+   function. you can have any number of Deamons and Programs installed (see 
+   the make(2) command), but your cyberdeck can only run a set number of
+   them between uses of the maintain(2) command.
+
+      You can have a number of active Daemons equal to the number of
+      unlocked Daemon slots on your cyberdeck. You can swap Daemons in and
+      out of slots at will.
+
+      To run a program, mark an unlocked Program slot. That slot cannot be
+      reused until you reset your deck with a maintain(2) command. 
+   
+   Edges and Flaws
+   Edges and Flaws describe fictional strengths and weaknesses of your 
+   cyberdeck. They come into play when considering position/effect and
+   consequences of action rolls.
+
+   Upgrades
+
+   Overclock
+
+ ==============================================================================
+ CONFIGURING A CYBERDECK
+ ==============================================================================
 
    copy the blank cyberdeck_block at the end of this file and paste it under
    "assets" in the Load_&_items sheet of your character file. Then follow
    these steps:
+ 
+ ==============================================================================                                      
    
    1. QUALITY - determine initial Decking Out Points pool
 
-   a deck's Quality represents its current value as a deck, not its value
-   when it was new; a deck which is in pristine condition or has been
-   extensively emhanced will be much higher Quality than an old battered
-   deck of the same model. 
+   cyberdecks, like all items/assets, have a Quality - a measure of the 
+   deck's value. Quality is a useful tool for comparing the capabilities of
+   items/assets - see the act(1) and breach(1) commands. 
+
+   the Quality of the deck you're building depends on how you're getting it 
+   in the fiction: 
+
+      Source                                                      Quality
+      mark load to get the kind of deck your crew can access.........Tier 
+      above, but your playbook/background gets Fine decks..........Tier+1
+      acquire(2) command......................................roll result
+      acquired from a Legend................................Legend's Tier
+      any other source................................Admin will tell you
 
    the higher the Quality of the deck you're building, the more Decking Out
-   Points (DOPs) you get to spend on it to reflect its higher value. DOPs can
-   be spent to unlock Daemon and Program slots, increase a deck's base Time 
-   On Target, or purchase Edges/remove Flaws. 
+   Points (DOPs) you get to spend on it. DOPs can be spent to unlock Daemon
+   and Program slots, increase a deck's base Time On Target, purchase Edges,
+   or remove Flaws.
 
       Quality                                                Initial DOPs
       0 - poor..........................................................6
@@ -55,89 +135,174 @@ asset: cyberdeck_block
       4 - superior.....................................................10
       5 - impeccable...................................................11
       6 - legendary....................................................12
+   
+   a deck's Quality represents its current value; a deck which is in pristine
+   condition or which has been extensively emhanced will be much higher 
+   Quality than an old, battered deck of the same model.
 
-   If your playbook or background give you access to Fine cyberdecks, get +1
-   DOP (this bonus stacks, e.g. +1 from both playbook and background = +2).
+   record the deck's Quality on the graphic on the cyberdeck_block.
 
-   Record the deck's Quality on the graphic on the cyberdeck_block.
+   you can tally your current DOP total as you go along here: --> 
 
-   You can tally your current DOP total as you go along here: --> 
+ ==============================================================================                                   
 
+   2. LOAD/FORM - choose a deck form factor
 
-   2. LOAD - choose a deck form factor
-
-   Larger decks get more DOPs to allocate since they outperform smaller
-   decks at a given Quality/price point. This is because:
+   larger decks get more DOPs to allocate since they outperform smaller
+   decks at a given Quality/price point. this is because:
    - larger decks can fit more hardware 
    - miniaturising components to fit into a smaller form factor is expensive
    - cooling a large deck is easier, avoiding thermal throttling/overheating
 
-   The tradeoff of the larger form-factor is that heavy battle decks are
+   the tradeoff of the larger form-factor is that heavy battle decks are
    harder to conceal and lug around.
                                                                          
       Form Factor            Load          ΔDOPs              Edges/Flaws
-      deck-on-a-chip...........0............-2................--implanted
+      deck-on-a-chip...........0............-2..................--implant
       light....................1............-2...................--covert
       normal...................2.............0........................N/A
       heavy (battle deck)......3............+2.....--heavy, --conspicuous
+      station.................N/A...........+4...................--static
 
-   You can only make use of an --implanted battle deck if you're building
+   you can only make use of an --implant cyberdeck if you're building
    this deck to get it chipped as a piece of cyberware (see chip(2))
 
-   Record the deck's Load on the graphic on the cyberdeck_block, make a
+   record the deck's Load/Form on the graphic on the cyberdeck_block, make a
    note of any Edges/Flaws you gained, and update your DOP tally. 
 
+ ==============================================================================
 
    3. MANUFACTURER - get Edges/Flaws to reflect corporate reputations
 
-   Pick a manufacturer and add the Edges/Flaws that represent their 
+   pick a manufacturer and add the Edges/Flaws that represent their 
    corporate brand identity:
 
-   Celer8 --budget (+1DOP, but take a Flaw) wait is this worth taking?
+   Celer8 --lightweight --budget (see step 4)
    Circle --luxe
    Delphi --intrusion-hardened
    --quiet --energy-efficient
    --modular-repair
    ThinkDeck --ruggedised
    Mens/Materia
+
+
+   FINISH THE CORP LIST !!!
+
+
    Scratch-built/DIY --private but --unreliable
 
-   Or get with the Admin to create a custom corporation
+   or get with the Admin to create a custom corporation.
 
+   mote down your manufacturer and any new Edges. 
    
+ ==============================================================================  
 
+   4. FLAWS - take Flaws for extra DOPs
+
+   you can take the following three Edges for free, which give you +1DOP to
+   assign at the cost of accepting an extra Flaw:
+
+   --second-hand: it was higher Quality when new-in-box, but you've acquired
+                  it past its prime. 
+		  +1DOP but +1 Flaw e.g. --beaten-up, --damaged(screen) 
+
+   --budget:      it has high-end specs for its Quality, but corners have
+                  been cut to keep the price down. 
+		  +1DOP but +1 Flaw e.g. --unreliable, under-cooled
+
+   --discounted:  EITHER a design flaw was overlooked when this deck was in
+                  development, so it's available discounted, OR the deck is
+		  sold for cheaper than it could be because the manufacturer
+		  is treating you the customer as a revenue stream.
+		  +1DOP but +1 Flaw e.g. --bottlenecked, --adware
+
+   these Edges stack and can be taken multiple times (e.g. your deck is 
+   Quality 1, but this model would be Quality 3 in factory condition; mark 
+   the Edge "--second-hand", and then add 2DOPs to your tally in exchange 
+   for 2 extra Flaws. the deck now has specs like a Quality 3 deck, but in
+   return it has at least two things Wrong With It.
+
+   example flaws:
+
+   --adware                     --forced-updates              --static
+   --beaten-up                  --hard-to-repair              --under-cooled   
+   --bottlenecked               --heavy                       --unreliable
+   --conspicuous                --locked-down                 --unsafe 
+   --damaged(component)         --loud                        --vulnerable
+   --data-selling               --slow
+
+   note down any new Edges/Flaws you've picked up and update your DOP tally.
    
-
-
-
-
-   4. TWEAKS
-
-
-
-
-
-
+ ==============================================================================
 
    5. SPEND DOP POOL
 
+   spend the DOPs you've tallied up 1-for-1 to buy:
 
+      Base ToT
+      Daemon slots
+      Program slots
+      Edges
 
+   example of how to fill out a Quality 1 deck graphic (7 DOPs):
 
+   specs: normal form, 2-Load, 2 Deamon slots, 1 Program slot, 4 Base ToT
 
+              ┌──────────────────────────────────────────────────┐           
+              │┌┐tot-top┌───────────────────────────────────────┐│
+              ││                                                ││
+              ││ 10  9   8   7   6   5  *4   3   2   1   0 tens ││
+              ││ │   │   │   │   │   │   │===│===│===│===│  [ ] ││
+              ││                                                ││
+              ││ form: normal    ^ToT remaining       *base ToT ││
+              ││                                                ││
+              ││ ┌───┐ ⡄⣆  ⡀⣧⢀    ⡄⣦⢀⣆  ⡀⣠⣷  ⢠ ⡀  ⡄⣦⢀   ⡄ ┌───┐ ││
+              ││ │ 2 │ ⣿⣿⣆⣠⣷⣿⣿⣄⣰⣀⣴⣧⣿⣸⣿⣄⣆⣿⣿⣿⣧⣰⣿⣠⣿⣄⣾⣿⣿⣿⣠⣧⣸⣿ │ 1 │ ││
+              ││ └───┘ ⣿⣿⠏⠙⡿⣿⣿⠋⠹⠉⠻⡟⣿⢹⣿⠋⠏⣿⣿⣿⡟⠹⣿⠙⣿⠋⢿⣿⣿⣿⠙⡟⢹⣿ └───┘ ││
+              ││ load. ⠃⠏  ⠁⡟⠈    ⠃⠟⠈⠏  ⠁⠙⡿  ⠘ ⠁  ⠃⠟⠈   ⠃ qual. ││
+      ________│└────────────────────────────────────────────────┘│
+     │`".     └────────────────────[________]────────────────────┘ \
+      `". `    _daemons_______________    ______________programs_   \
+         `/   _1___2___3___4___5___6_      _1___2___3___4___5___6_   \
+        /""" /UL//UL//  //  //  //  /      \UL\\  \\  \\  \\  \\  \   \
+       / <  /__//__//__//__//__//__/   ()   \__\\__\\__\\__\\__\\__\   \
+      /__  /x //  //  //  //  //  /          \x \\  \\  \\  \\  \\  \   \ 
+      /   /__//__//__//__//__//__/ ___....___ \__\\__\\__\\__\\__\\__\   \
+     /                            /___\__/___\                            \
+    /______________________________________________________________________\
+    │ IMB                                                        ThinkDeck │
+    └──────────────────────────────────────────────────────────────────────┘
+     
+     you can write your deck's manufacturer/model/name across the front if
+     you like!
+     
+     "UL" on the upper key of a Daemon/Program slot shows it's unlocked:
+     "x" on the lower key shows the Program slot has been used/the Daemon 
+     slot is currently in use. 
 
+ ==============================================================================
 
    6. LOOK
 
 
 
-
-
+ ==============================================================================
+ 
    7. NAMES
 
 
-   to attach this sheet to a cyberware block, cut above the "synopsis" line
-   
+
+
+
+
+ ==============================================================================
+ ASSET: CYBERWARE_BLOCK
+ ==============================================================================
+
+   insert under "assets" on the Load_&_Items sheet 
+
+   to attach this block to a cyberware block, cut above the "synopsis" line
+
 
 │ ┌─asset unique identifier goes here────────────────────────────────────────┐ │
 │ ├──────────────────┬───────────────────────────────────────────────────────┤ │
@@ -160,8 +325,8 @@ asset: cyberdeck_block
 │ ├─synopsis──────────────────────┬─overclock─────────────┬─issues───────────┤ │
 │ │                               │                       │                  │ │
 │ │   cyberdeck:                  │      .-"``":`"-.      │  --compromised   │ │
-│ │   ├── allows quickhacks       │    .`    4  ".  `.    │  --corrupted     │ │
-│ │   ├── runs daemons/programs   │   / _.._      "   \   │  --fried         │ │
+│ │   ├── allows Fasthacks        │    .`    4  ".  `.    │  --corrupted     │ │
+│ │   ├── runs Daemons/Programs   │   / _.._      "   \   │  --fried         │ │
 │ │   ├── contributes base ToT    │  :."    ".-. ." 1  :  │  --glitched      │ │
 │ │   └── provides an air-gapped  │  :"     (   )     .:  │  --ransomlocked  │ │
 │ │       interface with foreign  │  :  3  " "-"._  _.";  │  --stolen        │ │
@@ -173,19 +338,20 @@ asset: cyberdeck_block
 │ ├───────────────────────────────┴───────────────────────┴──────────────────┤ │
 │ │                                                                          │ │
 │ │           ┌──────────────────────────────────────────────────┐           │ │
-│ │           │┌┐tot-top┌─────────────┐remaining Time On Target┌┐│           │ │
+│ │           │┌┐tot-top┌───────────────────────────────────────┐│           │ │
 │ │           ││                                                ││           │ │
 │ │           ││ 10  9   8   7   6   5  *4   3   2   1   0 tens ││           │ │
 │ │           ││ │   │   │   │   │   │   │===│===│===│===│  [ ] ││           │ │
+│ │           ││                                                ││           │ │
+│ │           ││ form: normal    ^ToT remaining       *base ToT ││           │ │
 │ │           ││                                                ││           │ │
 │ │           ││ ┌───┐ ⡄⣆  ⡀⣧⢀    ⡄⣦⢀⣆  ⡀⣠⣷  ⢠ ⡀  ⡄⣦⢀   ⡄ ┌───┐ ││           │ │
 │ │           ││ │   │ ⣿⣿⣆⣠⣷⣿⣿⣄⣰⣀⣴⣧⣿⣸⣿⣄⣆⣿⣿⣿⣧⣰⣿⣠⣿⣄⣾⣿⣿⣿⣠⣧⣸⣿ │   │ ││           │ │
 │ │           ││ └───┘ ⣿⣿⠏⠙⡿⣿⣿⠋⠹⠉⠻⡟⣿⢹⣿⠋⠏⣿⣿⣿⡟⠹⣿⠙⣿⠋⢿⣿⣿⣿⠙⡟⢹⣿ └───┘ ││           │ │
 │ │           ││ load. ⠃⠏  ⠁⡟⠈    ⠃⠟⠈⠏  ⠁⠙⡿  ⠘ ⠁  ⠃⠟⠈   ⠃ qual. ││           │ │
-│ │           ││                                                ││           │ │
-│ │   ________│└──────────────────────────────────────┘*baseToT└┘│_          │ │
+│ │   ________│└────────────────────────────────────────────────┘│           │ │
 │ │  │`".     └────────────────────[________]────────────────────┘ \         │ │
-│ │   `". `    _programs______________    _______________daemons_   \        │ │
+│ │   `". `    _daemons_______________    ______________programs_   \        │ │
 │ │      `/   _1___2___3___4___5___6_      _1___2___3___4___5___6_   \       │ │
 │ │     /""" /  //  //  //  //  //  /      \  \\  \\  \\  \\  \\  \   \      │ │
 │ │    / <  /__//__//__//__//__//__/   ()   \__\\__\\__\\__\\__\\__\   \     │ │
@@ -197,5 +363,4 @@ asset: cyberdeck_block
 │ │ └──────────────────────────────────────────────────────────────────────┘ │ │
 │ │                                                                          │ │
 │ └──────────────────────────────────────────────────────────────────────────┘ │
-
-daemons/programs!! 
+daemons/programs/upgrades!! and form
