@@ -118,7 +118,7 @@
    "assets" in the Load_&_items sheet of your character file. Then follow
    these steps:
  
- ==============================================================================                                      
+ ==============================================================================
    
    1. QUALITY - determine initial Decking Out Points pool
 
@@ -158,7 +158,7 @@
 
    you can tally your current DOP total as you go along here: --> 
 
- ==============================================================================                                   
+ ==============================================================================      
 
    2. LOAD/FORM - choose a deck form factor
 
@@ -286,8 +286,6 @@
     │ IMB                                                        ThinkDeck │
     └──────────────────────────────────────────────────────────────────────┘
      
-   you can write your deck's manufacturer/model/name on the base if you like!
-     
    "UL" on the upper key of a Daemon/Program slot shows it's unlocked; mark 
    an "x" on the lower key during play to show a Program slot has been used
    or a Daemon slot is currently in use. 
@@ -297,7 +295,7 @@
    6. NAME AND LOOK - details and cosmetics
 
    give your cyberdeck a model name (and if it's one you care about, an
-   iconic name too).
+   iconic name too). you may want to write it on the graphic's base.
    
    e.g: the IMB ThinkDeck 7001c "Thread Dancer". Tried and tested ThinkDeck          
             └───────────┘ └───┘ └─────────────┘  construction: perfect for
