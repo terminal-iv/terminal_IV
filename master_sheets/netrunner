@@ -108,13 +108,13 @@ note, this is too wide here. do something about that
 │                                                     ├────────────┬───┬───┬───┤
 │   crew:                                             │ analyse    │   │   │   │
 │                                                     │            ├───┼───┼───┤
-│   background:                                       │ connect    │   │   │   │
+│   look:                                             │ connect    │   │   │   │
 │                                                     │            ├───┼───┼───┤
 │                                                     │ read       │   │   │   │
-│   look:                                             ├────────────┴───┴───┴───┤
+│                                                     ├────────────┴───┴───┴───┤
 │                                                     │ prowess        xp[0/8] │
 │                                                     ├────────────┬───┬───┬───┤
-│   lure:   SKIIP                                     │ bruteforce │   │   │   │
+│                                                     │ bruteforce │   │   │   │
 │                                                     │            ├───┼───┼───┤
 │                                                     │ execute    │   │   │   │
 │   address:          SKIIIIIP                        │            ├───┼───┼───┤
@@ -176,7 +176,17 @@ note, this is too wide here. do something about that
 │                                                                              │
 │                                                                              │
 │                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
+├─background───────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│ ┌─background name goes here────────────────────────────────────────────────┐ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ │                                                                          │ │
+│ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
+└─────────────────────────────────────insert─background─blocks─above─this─line─┘
 
  ════════════════════════════════ LOAD & ITEMS ════════════════════════════════
  
@@ -185,7 +195,7 @@ note, this is too wide here. do something about that
 │   │     │     │     │    [│=====│=====│>    │     │     │     │     │     │  │
 │   │                 │     │           │                 │                    │
 │   encumbered        heavy normal      light             bonus                │
-├─load/assets─────────────────────────────────────────┬─load/generic─items─────┤
+├─load/special─items──────────────────────────────────┬─load/generic─items─────┤
 │                                                     │                        │
 │   key:  ( ) = 0 load; [ ] = 1; [ ]:[ ] = multiple   │ blade or two       [ ] │
 │                                                     │                        │

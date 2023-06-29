@@ -52,8 +52,8 @@
    is that cyberdecks are kitted out to hack systems and avoid detection.
 
    hackers are extremely cautious about bridging the gap between their 
-   internal/"onboard" and external/"foreign" cybersystems. plugging your
-   body's I/O ports into a network you don't control is inviting trouble.
+   "onboard" and "foreign" cybersystems. plugging your body's I/O ports into
+   a network you don't control is inviting trouble.
 
    since you operate your cyberdeck via its keyboard interface, your internal
    system is air-gapped from the system you're interacting with, mitigating 
@@ -437,3 +437,4 @@
 │ ├──────────────────────────────────────────────────────────────────────────┤ │
 │ │   flashback a downtime command for daemons/programs/upgrades on the fly  │ │
 │ └──────────────────────────────────────────────────────────────────────────┘ │
+│                                                                              │
