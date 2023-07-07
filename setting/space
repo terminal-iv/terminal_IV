@@ -445,8 +445,18 @@ High-Thrust Transport Vehicle (HTTV)
 ┌" o│└─────────┘ └─────o┘┌*  __  *┬┬"'|   ====      |]\   ║║  CIWS
 │__ │ .║ FGB ║"""" __:"  │  (  )  ││  |o  SLAYTHEON |]-o=(┌o┐ 
 └_ o│┌─────────┐ ┌─────o┐└.  ""  .┴┴-.|   ====      |]/   └─┘ 
-  "_│├─┬─────┬─┴─()()──o┘H └┬──┬┘     "───====──oo──"    
-        """""              /____\  
+  "_│├─┬─────┬─┴─()()──o┘H └┬──┬┘     "───====──oo──"   
+        """""               │\/│
+   functional cargo         │/\│          situation module
+   block                    │\/│
+                            │/\│
+                            │\/│
+                            │/\│
+			    │\/│
+                            │/\│   cargo truss - elongate and attach
+			    │\/│    depressurised containers
+                            │/\│ 
+			   /____\  
                       .- ""      "" -.                   
                    .'                  '.              
                   /                      \     
