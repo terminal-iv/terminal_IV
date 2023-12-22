@@ -82,6 +82,8 @@ There’s usually no cost associated with Class C cyberware; however, if a chara
 ## Class B
 Class B: "always-on" cyberware which passively offers a specific fictional permission or mechanical advantage. Access to Class B cyberware is often restricted by Terminal_IV's authorities, and many examples in this category are entirely illegal (doubly so if jailbroken). 
 
+B1/B2 can be combined, both are fictional permissions or mechanical advantages
+
 Class B2 cyberware provides the fictional effect of a physical item, but integrated into your body. 
 Examples include wrist-mounted rocket launchers (which are essentially just a regular rocket launcher integrated with your body). 
 
